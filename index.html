@@ -1,1050 +1,1941 @@
-<!DOCTYPE HTML>
-<html>
-		<head>
-		
-		    <meta charset="utf-8">
-			<meta http-equiv="X-UA-Compatible" content="IE=edge">
-			<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-			
-			<!-- Title -->
-			<title>InkTatto</title>
-			
-			<!-- Bootstrap & Font-Awesome CSS -->
-			<link rel="stylesheet" href="css/bootstrap.min.css" type='text/css'>
-			<link rel="stylesheet" href="css/font-awesome.min.css" type='text/css'>
-			
-			<!-- Custom CSS -->
-			<link rel="stylesheet" href="css/style.css" type='text/css'>
-			<link rel="stylesheet" href="css/prettyPhoto.css" type='text/css'>
-			<link rel="stylesheet" href="css/responsive.css" type='text/css'>
-			
-			<!-- Animation CSS -->
-			<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
-			
-			<!-- Google Webfont -->
-			<link href='http://fonts.googleapis.com/css?family=Noticia+Text:400,700' rel="stylesheet" type='text/css'>
-			
-			<!-- js files & script -->
-			<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
-			<script type="text/javascript" src="js/hover_pack.js"></script>
-			<script type="text/javascript">
-								jQuery(document).ready(function($) {
-									$(".scroll").click(function(event){		
-										event.preventDefault();
-										$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-									});
-								});
-			</script>
-			<script type="text/javascript" src="js/move-top.js"></script>
-			<script type="text/javascript" src="js/easing.js"></script>
-			<script type="text/javascript" src="js/modernizr.js"></script>
-			<script type="text/javascript" src="js/retina.js"></script>
-			<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
-			<script type="text/javascript" src="js/wow.min.js"></script>
-			<script>
-				 new WOW().init();
-			</script>
-			
-		</head>
-		<body>
-		
-            <header id="header"> <!-- Header Part -->
-			
-			<!-- this is dummy heading for W3-Validation approval you can remove it if you want -->
-			<h2 class="w3-validation">For W3 Validation</h2>
-			<!-- this is dummy heading for W3-Validation approval you can remove it if you want -->
-			
-					<div class="header">
-						<div class="container">
-								<!-- start-top-nav -->
-								<div class="top-nav">
-									<div class="top-header">
-										<div class="responsive-logo">
-										   <a href="index.html"><img src="images/logo.png" alt=""/></a>
-										</div>
-									</div>
-									<nav class="nav">
-										<a id="menu-toggle" class="anchor-link" href="#"><img src="images/nav.png" alt="" /></a>
-										<ul class="nav-list" id="menu">
-											<li><a href="#">Home</a></li>
-											<li><a href="#about" class="scroll">About</a></li>
-											<li><a href="#gallery" class="scroll">Gallery</a></li>
-											<!-- logo -->
-											 <li class="logo"><a href="index.html"><img src="images/logo.png" alt=""/></a></li>
-											<!-- logo -->
-											<li><a href="#faq" class="scroll">Faq</a></li>
-											<li><a href="#find" class="scroll">Find Us</a></li>
-											<li><a href="#contact" class="scroll">Contact</a></li>
-										</ul>
-									</nav>
-									<script type="text/javascript">
-										  $(document).ready(function() {
-										
-											$('#menu-toggle').click(function () {
-											  $('#menu').toggleClass('open');
-											  e.preventDefault();
-											});
-											
-										});
-									</script>
-								</div>
-							<!-- End-top-nav -->
-						</div>
-					</div>
-			</header>
-			
-            <section id="about-section"> <!-- About Section -->
-			
-			<!-- this is dummy heading for W3-Validation approval you can remove it if you want -->
-			<h2 class="w3-validation">For W3 Validation</h2>
-			<!-- this is dummy heading for W3-Validation approval you can remove it if you want -->
-			
-					<div class="container-fluid">  
-						<div class="row" id="about">
-							<div class="col-md-6 about_left">
-							     <a href="#" class="button-one about_btn button-type-one button-box">About Us</a>
-							</div>
-							<div class="col-md-6 about_right wow fadeInUp" data-wow-delay="0.0s">
-								  <div class="about_text">
-										<img src="images/tatto.png" class="img-responsive" alt=""/>
-										<h3>Aliquam ac justo interdum, elementum ligula et, condimentum orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc risus eros, ultricies quis erat sit amet, elementum vulputate lorem. Sed at lacinia lectus, quis blandit libero. </p>
-										<p>Quisque ac malesuada lectus. Proin gravida feugiat commodo. Phasellus fermentum sem ut felis vehicula aliquet. Donec rhoncus, mi et euismod dictum, purus lorem vehicula justo, a iaculis mi nulla et risus.</p>
-								  </div>
-							</div>
-						</div> 
-					 
-					</div>  
-            </section>
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:version='2' class='v2' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+  
+<meta content='IE=EmulateIE7' http-equiv='X-UA-Compatible'/>
 
-            <section id="gallery-one-image-section"> <!-- About Gallery Part -->
-			
-			<!-- this is dummy heading for W3-Validation approval you can remove it if you want -->
-			<h2 class="w3-validation">For W3 Validation</h2>
-			<!-- this is dummy heading for W3-Validation approval you can remove it if you want -->
-			
-					<div class="container-fluid">
-					    <div class="row">
-						    <div class="gallery-one-top wow fadeInLeft" data-wow-delay="0.0s">
-								<ul class="about_gallery">
-									<li>
-										<div class="b-link-stripe b-animate-go thickbox"> <!-- Gallery one image no : 1 -->
-												<img src="images/gallery-one-img1.jpg" class="gallery-one-image img-responsive" alt=""/> 
-												<div class="b-wrapper">
-														<div class="b-animate b-from-left b-delay03 ">
-															<a href="images/about-gallery/1.jpg" rel="prettyPhoto[pp_gal]">
-																<button class="zooming about-zooming md-trigger">
-																		<img src="images/zoom.png" alt=""/>
-																</button>
-															</a>												
-															<ul class="popup_links popup-links-button">
-																<li><button><i class="link"></i></button></li>
-																<li><button><i class="info"></i></button></li>
-																<li><button><i class="like"></i></button></li>
-															</ul>
-														</div>
-												</div>
-										</div>
-									</li>
-									<li>
-										<div class="b-link-stripe b-animate-go thickbox"> <!-- Gallery one image no : 2 -->
-												<img src="images/gallery-one-img2.jpg" class="gallery-one-image img-responsive" alt=""/>
-												<div class="b-wrapper">
-														<div class="b-animate b-from-left b-delay03 ">
-															<a href="images/about-gallery/2.jpg" rel="prettyPhoto[pp_gal]">
-																<button class="zooming about-zooming md-trigger">
-																		<img src="images/zoom.png" alt=""/>
-																</button>
-															</a>
-															<ul class="popup_links popup-links-button">
-																<li><button><i class="link"></i></button></li>
-																<li><button><i class="info"></i></button></li>
-																<li><button><i class="like"></i></button></li>
-															</ul>
-														</div>
-												</div>
-										</div>
-									</li>
-									<li>
-										<div class="b-link-stripe b-animate-go thickbox"> <!-- Gallery one image no : 3 -->
-												<img src="images/gallery-one-img3.jpg" class="gallery-one-image img-responsive" alt=""/> 
-												<div class="b-wrapper">
-														<div class="b-animate b-from-left b-delay03 ">
-														    <a href="images/about-gallery/3.jpg" rel="prettyPhoto[pp_gal]">
-																<button class="zooming about-zooming md-trigger">
-																		<img src="images/zoom.png" alt=""/>
-																</button>
-															</a>
-															<ul class="popup_links popup-links-button">
-																<li><button><i class="link"></i></button></li>
-																<li><button><i class="info"></i></button></li>
-																<li><button><i class="like"></i></button></li>
-															</ul>
-														</div>
-												</div>
-										</div>
-									</li>
-									<li>
-										<div class="b-link-stripe b-animate-go thickbox"> <!-- Gallery one image no : 4 -->
-												<img src="images/gallery-one-img4.jpg" class="gallery-one-image img-responsive" alt=""/>
-												<div class="b-wrapper">
-														<div class="b-animate b-from-left b-delay03 ">
-															<a href="images/about-gallery/4.jpg" rel="prettyPhoto[pp_gal]">
-																<button class="zooming about-zooming md-trigger">
-																		<img src="images/zoom.png" alt=""/>
-																</button>
-															</a>
-															<ul class="popup_links popup-links-button">
-																<li><button><i class="link"></i></button></li>
-																<li><button><i class="info"></i></button></li>
-																<li><button><i class="like"></i></button></li>
-															</ul>
-														</div>
-												</div>
-										</div>
-									</li>
-									<li>
-										<div class="b-link-stripe b-animate-go thickbox"> <!-- Gallery one image no : 5 -->
-												<img src="images/gallery-one-img5.jpg" class="gallery-one-image img-responsive" alt=""/>
-												<div class="b-wrapper">
-														<div class="b-animate b-from-left b-delay03 ">
-															<a href="images/about-gallery/5.jpg" rel="prettyPhoto[pp_gal]">
-																<button class="zooming md-trigger">
-																		<img src="images/zoom.png" alt=""/>
-																</button>
-															</a>
-															<ul class="popup_links popup-links-button">
-																<li><button><i class="link"></i></button></li>
-																<li><button><i class="info"></i></button></li>
-																<li><button><i class="like"></i></button></li>
-															</ul>
-														</div>
-												</div>
-										</div>
-									</li>
-									<li>
-										<div class="b-link-stripe b-animate-go thickbox"> <!-- Gallery one image no : 6 -->
-												<img src="images/gallery-one-img6.jpg" class="gallery-one-image img-responsive" alt=""/> 
-												<div class="b-wrapper">
-														<div class="b-animate b-from-left b-delay03 ">
-															<a href="images/about-gallery/6.jpg" rel="prettyPhoto[pp_gal]">
-																<button class="zooming about-zooming md-trigger">
-																		<img src="images/zoom.png" alt=""/>
-																</button>
-															</a>
-															<ul class="popup_links popup-links-button">
-																<li><button><i class="link"></i></button></li>
-																<li><button><i class="info"></i></button></li>
-																<li><button><i class="like"></i></button></li>
-															</ul>
-														</div>
-												</div>
-										</div>
-									</li>
-								</ul>
-								<div class="clearfix"></div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="gallery-one-bottom">
-								<ul class="about_gallery wow fadeInRight" data-wow-delay="0.3s">
-									<li>
-										<div class="b-link-stripe b-animate-go thickbox"> <!-- Gallery one image no : 7 -->
-												<img src="images/gallery-one-img7.jpg" class="gallery-one-image img-responsive" alt=""/>
-												<div class="b-wrapper">
-														<div class="b-animate b-from-left b-delay03 ">
-														<a href="images/about-gallery/7.jpg" rel="prettyPhoto[pp_gal]">
-															<button class="zooming about-zooming md-trigger">
-																	<img src="images/zoom.png" alt=""/>
-															</button>
-														</a>
-															<ul class="popup_links popup-links-button">
-																<li><button><i class="link"></i></button></li>
-																<li><button><i class="info"></i></button></li>
-																<li><button><i class="like"></i></button></li>
-															</ul>
-														</div>
-												</div>
-										</div>
-									</li>
-									<li>
-										<div class="b-link-stripe b-animate-go thickbox"> <!-- Gallery one image no : 8 -->
-												<img src="images/gallery-one-img8.jpg" class="gallery-one-image img-responsive" alt=""/>
-												<div class="b-wrapper">
-														<div class="b-animate b-from-left b-delay03 ">
-															<a href="images/about-gallery/8.jpg" rel="prettyPhoto[pp_gal]">
-																<button class="zooming about-zooming md-trigger">
-																		<img src="images/zoom.png" alt=""/>
-																</button>
-															</a>
-															<ul class="popup_links popup-links-button">
-																<li><button><i class="link"></i></button></li>
-																<li><button><i class="info"></i></button></li>
-																<li><button><i class="like"></i></button></li>
-															</ul>
-														</div>
-												</div>
-										</div>
-									</li>
-									<li>
-										<div class="b-link-stripe b-animate-go thickbox"> <!-- Gallery one image no : 9 -->
-												<img src="images/gallery-one-img9.jpg" class="gallery-one-image img-responsive" alt=""/>
-												<div class="b-wrapper">
-														<div class="b-animate b-from-left b-delay03 ">
-															<a href="images/about-gallery/9.jpg" rel="prettyPhoto[pp_gal]">
-																<button class="zooming about-zooming md-trigger">
-																		<img src="images/zoom.png" alt=""/>
-																</button>
-															</a>
-															<ul class="popup_links popup-links-button">
-																<li><button><i class="link"></i></button></li>
-																<li><button><i class="info"></i></button></li>
-																<li><button><i class="like"></i></button></li>
-															</ul>
-														</div>
-												</div>
-										</div>
-									</li>
-									<li>
-										<div class="b-link-stripe b-animate-go thickbox"> <!-- Gallery one image no : 10 -->
-												<img src="images/gallery-one-img10.jpg" class="gallery-one-image img-responsive" alt=""/>
-												<div class="b-wrapper">
-														<div class="b-animate b-from-left b-delay03 ">
-															<a href="images/about-gallery/10.jpg" rel="prettyPhoto[pp_gal]">
-																<button class="zooming about-zooming md-trigger">
-																		<img src="images/zoom.png" alt=""/>
-																</button>
-															</a>
-															<ul class="popup_links popup-links-button">
-																<li><button><i class="link"></i></button></li>
-																<li><button><i class="info"></i></button></li>
-																<li><button><i class="like"></i></button></li>
-															</ul>
-														</div>
-												</div>
-										</div>
-									</li>
-									<li>
-										<div class="b-link-stripe b-animate-go thickbox"> <!-- Gallery one image no : 11 -->
-												<img src="images/gallery-one-img11.jpg" class="gallery-one-image img-responsive" alt=""/>
-												<div class="b-wrapper">
-														<div class="b-animate b-from-left b-delay03 ">
-														<a href="images/about-gallery/11.jpg" rel="prettyPhoto[pp_gal]">
-															<button class="zooming about-zooming md-trigger">
-																	<img src="images/zoom.png" alt=""/>
-															</button>
-														</a>
-															<ul class="popup_links popup-links-button">
-																<li><button><i class="link"></i></button></li>
-																<li><button><i class="info"></i></button></li>
-																<li><button><i class="like"></i></button></li>
-															</ul>
-														</div>
-												</div>
-										</div>
-									</li>
-									<li>
-										<div class="b-link-stripe b-animate-go thickbox"> <!-- Gallery one image no : 12 -->
-												<img src="images/gallery-one-img12.jpg" class="gallery-one-image img-responsive" alt=""/>
-												<div class="b-wrapper">
-														<div class="b-animate b-from-left b-delay03 ">
-															<a href="images/about-gallery/12.jpg" rel="prettyPhoto[pp_gal]">
-																<button class="zooming about-zooming md-trigger">
-																		<img src="images/zoom.png" alt=""/>
-																</button>
-															</a>
-															<ul class="popup_links popup-links-button">
-																<li><button><i class="link"></i></button></li>
-																<li><button><i class="info"></i></button></li>
-																<li><button><i class="like"></i></button></li>
-															</ul>
-														</div>
-												</div>
-										</div>
-									</li>
-								</ul>
-								<div class="clearfix"></div>
-							</div>
-						</div>	
-					</div>
-            </section>
-			
-			<section id="testimonial-section"> <!-- Testimonial Section -->
-			
-			<!-- this is dummy heading for W3-Validation approval you can remove it if you want -->
-			<h2 class="w3-validation">For W3 Validation</h2>
-			<!-- this is dummy heading for W3-Validation approval you can remove it if you want -->
-			
-					 <div class="testimonial wow bounceIn" data-wow-delay="0.0s" id="faq">
-							<div class="container">
-									<div class="row">
-									    <div class="test_wrap">
-											<p><span class="quotes"></span>Aliquam ac justo interdum, elementum ligula et, condimentum orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit.<span class="quotes-down"></span></p>
-											<h4>- John Doe -</h4>
-											<div class="clearfix"> </div>
-									    </div>
-									</div>
-							</div>
-                     </div>
-			</section>
-			
-			<section id="team-section"> <!-- Team Section -->
-			
-			<!-- this is dummy heading for W3-Validation approval you can remove it if you want -->
-			<h2 class="w3-validation">For W3 Validation</h2>
-			<!-- this is dummy heading for W3-Validation approval you can remove it if you want -->
-			
-				<div class="container-fluid">
-					<div class="row">
-					    <div class="team">
-							<div class='team_div'>
-								    <div class="col-md-4 team-grid-1 wow fadeInLeft" data-wow-delay="0.3s">
-									    <a href="#" class="button-one team_btn button-type-one button-box">Team</a>
-								    </div>
-							        <div class="col-md-4 team-grid-2 wow fadeInUp"  data-wow-delay="0.0s"> </div>
-									<div class="col-md-4 team-grid-3 wow fadeInRight" data-wow-delay="0.3s">
-											<h3>Corey Miller</h3> <!-- Team Member One -->
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc risus eros, ultricies quis erat sit amet, elementum vulputate lorem. Sed at lacinia lectus, quis blandit libero.</p>
-											<p>Quisque ac malesuada lectus. Proin gravida feugiat commodo. Phasellus fermentum sem ut felis vehicula aliquet. Donec rhoncus, mi et euismod dictum, purus lorem vehicula justo, a iaculis mi nulla et risus.</p>
-											 <ul class="social">
-												<li><a href=""> <i class="fb"> </i> </a></li>
-												<li><a href=""><i class="tw"> </i> </a></li>
-												<li><a href=""><i class="tumb"> </i> </a></li>
-												<li><a href=""><i class="linked"> </i> </a></li>
-												<li><a href=""><i class="pinterest"> </i> </a></li>
-												<li><a href=""><i class="google"> </i> </a></li>
-											</ul> 
-									</div>
-						            <div class="clearfix"> </div>
-						    </div>
-						</div>
-					</div>
-					<div class="row">
-					    <div class="team">
-							<div class='team_div'>
-							        <div class="col-md-4 team-grid-4 team_grid3 wow fadeInRight" data-wow-delay="0.3s">
-							        </div>
-								    <div class="col-md-4 team-grid-5 team_grid1 wow fadeInLeft" data-wow-delay="0.3s">
-									    <h3>Kat Von D</h3> <!-- Team Member Two -->
-									    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc risus eros, ultricies quis erat sit amet, elementum vulputate lorem. Sed at lacinia lectus, quis blandit libero.</p>
-										<p>Quisque ac malesuada lectus. Proin gravida feugiat commodo. Phasellus fermentum sem ut felis vehicula aliquet. Donec rhoncus, mi et euismod dictum, purus lorem vehicula justo, a iaculis mi nulla et risus.</p>
-										<ul class="social">
-											<li><a href=""> <i class="fb"> </i> </a></li>
-											<li><a href=""><i class="tw"> </i> </a></li>
-											<li><a href=""><i class="tumb"> </i> </a></li>
-											<li><a href=""><i class="linked"> </i> </a></li>
-											<li><a href=""><i class="pinterest"> </i> </a></li>
-											<li><a href=""><i class="google"> </i> </a></li>
-										</ul> 
-									    <label class="arrow-icon1  arrow-icon1-r"> </label>
-								    </div>
-								    <div class="col-md-4 newsletter_grid team-grid-6 wow fadeInUp"  data-wow-delay="0.0s">
-									    <h3>Newsletter</h3>
-									    <p>Join thousands of other people subscribe to our news</p>
-										<div class="newsletter-div">
-										    <form class="newsletter">
-											    <input type="text" placeholder="Insert Email" >
-											    <input type="submit" value="Submit">
-										    </form>
-										</div>
-									</div>
-								<div class="clearfix"> </div>
-							</div>
-                        </div>
-					</div>
-				</div>
-			</section>
-			
-			<section id="twitter-section"> <!-- Twitter Section -->
-			
-			<!-- this is dummy heading for W3-Validation approval you can remove it if you want -->
-			<h2 class="w3-validation">For W3 Validation</h2>
-			<!-- this is dummy heading for W3-Validation approval you can remove it if you want -->
-			
-			        <div class="twitter-div wow bounceInUp"  data-wow-delay="0.0s" id="find">
-						<div class="container">
-							<div class="row">
-							    <i class="tw_icon"> </i>
-								<p>RT @collis: Trade growth ideas with other founders. Look for ways to cross promote. Small startups today may be big friends later. (9/10)  2 days ago</p>
-							</div>
-						</div>
-                    </div>
-			</section>
-			
-			<section id="gallery-two-image-section"> <!-- Gallery Two Section -->
-			
-			<!-- this is dummy heading for W3-Validation approval you can remove it if you want -->
-			<h2 class="w3-validation">For W3 Validation</h2>
-			<!-- this is dummy heading for W3-Validation approval you can remove it if you want -->
-			
-				<div class="container-fluidgallery wow fadeInDown" data-wow-delay="0.0s" id="gallery">
-					        <div class="row">
-								    <div class="gallery-title">
-									    <a href="#" class="button-one gallery_btn button-type-one button-box">Gallery</a>
-								    </div>
-									<div class="gallery-two-row-one">
-											<ul class="gallery-grid-one gallery-grid-box">
-												<li>
-													<div class="b-link-stripe b-animate-go thickbox"> <!-- Gallery image no : 1 -->
-															<img src="images/gallery-two-img1.jpg" class="gallery-two-image img-responsive" alt=""/>
-														<div class="b-wrapper">
-																<div class="b-animate b-from-left b-delay03 ">
-																	<a href="images/photo-gallery/image-1.jpg" rel="prettyPhoto[pp_gal]">
-																		<button class="zooming md-trigger">
-																			<img src="images/zoom.png" alt=""/>
-																		</button>
-																	</a>
-																	<ul class="popup_links gallery-two-popup-links">
-																		<li><button><i class="link"></i></button></li>
-																		<li><button><i class="info"></i></button></li>
-																		<li><button><i class="like"></i></button></li>
-																	</ul>
-																</div>
-														</div>
-													</div>
-												</li>
-												<li>
-													<div class="b-link-stripe b-animate-go thickbox"> <!-- Gallery image no : 2 -->
-															<img src="images/gallery-two-img2.jpg" class="gallery-two-image img-responsive" alt=""/>
-														<div class="b-wrapper">
-																<div class="b-animate b-from-left b-delay03 ">
-																	<a href="images/photo-gallery/image-2.jpg" rel="prettyPhoto[pp_gal]">
-																		<button class="zooming md-trigger">
-																				<img src="images/zoom.png" alt=""/>
-																		</button>
-																	</a>
-																	<ul class="popup_links gallery-two-popup-links">
-																		<li><button><i class="link"></i></button></li>
-																		<li><button><i class="info"></i></button></li>
-																		<li><button><i class="like"></i></button></li>
-																	</ul>
-																</div>
-														</div>
-													</div>
-												</li>
-												<li>
-													<div class="b-link-stripe b-animate-go thickbox"> <!-- Gallery image no : 3 -->
-															<img src="images/gallery-two-img3.jpg" class="gallery-two-image img-responsive" alt=""/>
-														<div class="b-wrapper">
-																<div class="b-animate b-from-left b-delay03 ">
-																	<a href="images/photo-gallery/image-3.jpg" rel="prettyPhoto[pp_gal]">
-																		<button class="zooming md-trigger">
-																				<img src="images/zoom.png" alt=""/>
-																		</button>
-																	</a>
-																	<ul class="popup_links gallery-two-popup-links">
-																		<li><button><i class="link"></i></button></li>
-																		<li><button><i class="info"></i></button></li>
-																		<li><button><i class="like"></i></button></li>
-																	</ul>
-																</div>
-														</div>
-													</div>
-												</li>											
-												
-											</ul>
-											<div class="clearfix"></div>
-									</div>
-							</div>
-							<div class="row">
-							    <div class="col-md-12">
-								    <div class="gallery-two-row-two wow fadeInLeft">
-									    <ul class="gallery-grid-two gallery-grid-box">
-										    <li>
-												<div class="b-link-stripe b-animate-go thickbox"> <!-- Gallery image no : 4 -->
-													    <img src="images/gallery-two-img4.jpg" class="gallery-two-image img-responsive" alt=""/>
-														<div class="b-wrapper">
-															<div class="b-animate b-from-left b-delay03 ">
-																	<a href="images/photo-gallery/image-4.jpg" rel="prettyPhoto[pp_gal]">
-																		<button class="zooming md-trigger">
-																				<img src="images/zoom.png" alt=""/>
-																		</button>
-																	</a>
-																<ul class="popup_links gallery-two-popup-links">
-																	<li><button><i class="link"></i></button></li>
-															        <li><button><i class="info"></i></button></li>
-															        <li><button><i class="like"></i></button></li>
-																</ul>
-															</div>
-														</div>
-												</div>
-										    </li>
-											<li>
-												<div class="b-link-stripe b-animate-go thickbox"> <!-- Gallery image no : 5 -->
-													    <img src="images/gallery-two-img5.jpg" class="gallery-two-image img-responsive" alt=""/>
-														<div class="b-wrapper">
-															<div class="b-animate b-from-left b-delay03 ">
-																	<a href="images/photo-gallery/image-5.jpg" rel="prettyPhoto[pp_gal]">
-																		<button class="zooming md-trigger">
-																				<img src="images/zoom.png" alt=""/>
-																		</button>
-																	</a>
-																<ul class="popup_links gallery-two-popup-links">
-																	<li><button><i class="link"></i></button></li>
-															        <li><button><i class="info"></i></button></li>
-															        <li><button><i class="like"></i></button></li>
-																</ul>
-															</div>
-														</div>
-												</div>
-										    </li>
-											<li>
-												<div class="b-link-stripe b-animate-go thickbox"> <!-- Gallery image no : 6 -->
-													    <img src="images/gallery-two-img6.jpg" class="gallery-two-image img-responsive" alt=""/>
-														<div class="b-wrapper">
-															<div class="b-animate b-from-left b-delay03 ">
-																	<a href="images/photo-gallery/image-6.jpg" rel="prettyPhoto[pp_gal]">
-																		<button class="zooming md-trigger">
-																				<img src="images/zoom.png" alt=""/>
-																		</button>
-																	</a>
-																<ul class="popup_links gallery-two-popup-links">
-																	<li><button><i class="link"></i></button></li>
-															        <li><button><i class="info"></i></button></li>
-															        <li><button><i class="like"></i></button></li>
-																</ul>
-															</div>
-														</div>
-												</div>
-										    </li>
-											<li>
-												<div class="b-link-stripe b-animate-go thickbox"> <!-- Gallery image no : 7 -->
-													    <img src="images/gallery-two-img7.jpg" class="gallery-two-image img-responsive" alt=""/>
-														<div class="b-wrapper">
-															<div class="b-animate b-from-left b-delay03 ">
-																<a href="images/photo-gallery/image-7.jpg" rel="prettyPhoto[pp_gal]">
-																	<button class="zooming md-trigger">
-																			<img src="images/zoom.png" alt=""/>
-																	</button>
-																</a>
-																<ul class="popup_links gallery-two-popup-links">
-																	<li><button><i class="link"></i></button></li>
-															        <li><button><i class="info"></i></button></li>
-															        <li><button><i class="like"></i></button></li>
-																</ul>
-															</div>
-														</div>
-												</div>
-										    </li>
-											<li>
-												<div class="b-link-stripe b-animate-go thickbox"> <!-- Gallery image no : 8 -->
-													    <img src="images/gallery-two-img8.jpg" class="gallery-two-image img-responsive" alt=""/>
-														<div class="b-wrapper">
-															<div class="b-animate b-from-left b-delay03 ">
-																<a href="images/photo-gallery/image-8.jpg" rel="prettyPhoto[pp_gal]">
-																	<button class="zooming md-trigger">
-																			<img src="images/zoom.png" alt=""/>
-																	</button>
-																</a>
-																<ul class="popup_links gallery-two-popup-links">
-																	<li><button><i class="link"></i></button></li>
-															        <li><button><i class="info"></i></button></li>
-															        <li><button><i class="like"></i></button></li>
-																</ul>
-															</div>
-														</div>
-												</div>
-										    </li>
-											
-											<!-- Only For Mobile -->
-											<li class="mobile-display-on">
-												<div class="b-link-stripe b-animate-go thickbox"> <!-- Gallery image no : 9 -->
-													    <img src="images/gallery-two-img9.jpg" class="gallery-two-image img-responsive" alt=""/>
-														<div class="b-wrapper">
-															<div class="b-animate b-from-left b-delay03 ">
-																<a href="images/photo-gallery/image-9.jpg" rel="prettyPhoto[pp_gal]">
-																	<button class="zooming md-trigger">
-																			<img src="images/zoom.png" alt=""/>
-																	</button>
-																</a>
-																<ul class="popup_links gallery-two-popup-links">
-																	<li><button><i class="link"></i></button></li>
-															        <li><button><i class="info"></i></button></li>
-															        <li><button><i class="like"></i></button></li>
-																</ul>
-															</div>
-														</div>
-												</div>
-										    </li>
-											<!-- Only For Mobile -->
-											
-										</ul>
-										<div class="clearfix"></div>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-12">
-									<div class="gallery-two-row-three wow fadeInRight">
-									    <ul class="gallery-grid-three gallery-grid-box">
-										    <li class="mobile-display-off">
-												<div class="b-link-stripe b-animate-go thickbox"> <!-- Gallery image no : 9 -->
-													    <img src="images/gallery-two-img9.jpg" class="gallery-two-image img-responsive" alt=""/>
-														<div class="b-wrapper">
-															<div class="b-animate b-from-left b-delay03 ">
-																<a href="images/photo-gallery/image-9.jpg" rel="prettyPhoto[pp_gal]">
-																	<button class="zooming md-trigger">
-																			<img src="images/zoom.png" alt=""/>
-																	</button>
-																</a>
-																<ul class="popup_links gallery-two-popup-links">
-																	<li><button><i class="link"></i></button></li>
-															        <li><button><i class="info"></i></button></li>
-															        <li><button><i class="like"></i></button></li>
-																</ul>
-															</div>
-														</div>
-												</div>
-										    </li>
-											<li>
-												<div class="b-link-stripe b-animate-go thickbox"> <!-- Gallery image no : 10 -->
-													    <img src="images/gallery-two-img10.jpg" class="gallery-two-image img-responsive" alt=""/>
-														<div class="b-wrapper">
-															<div class="b-animate b-from-left b-delay03 ">
-															<a href="images/photo-gallery/image-10.jpg" rel="prettyPhoto[pp_gal]">
-															    <button class="zooming md-trigger">
-																        <img src="images/zoom.png" alt=""/>
-																</button>
-															</a>
-																<ul class="popup_links gallery-two-popup-links">
-																	<li><button><i class="link"></i></button></li>
-															        <li><button><i class="info"></i></button></li>
-															        <li><button><i class="like"></i></button></li>
-																</ul>
-															</div>
-														</div>
-												</div>
-										    </li>
-											<li>
-												<div class="b-link-stripe b-animate-go thickbox"> <!-- Gallery image no : 11 -->
-													    <img src="images/gallery-two-img11.jpg" class="gallery-two-image img-responsive" alt=""/>
-														<div class="b-wrapper">
-															<div class="b-animate b-from-left b-delay03 ">
-																<a href="images/photo-gallery/image-11.jpg" rel="prettyPhoto[pp_gal]">
-																	<button class="zooming md-trigger">
-																			<img src="images/zoom.png" alt=""/>
-																	</button>
-																</a>
-																<ul class="popup_links gallery-two-popup-links">
-																	<li><button><i class="link"></i></button></li>
-															        <li><button><i class="info"></i></button></li>
-															        <li><button><i class="like"></i></button></li>
-																</ul>
-															</div>
-														</div>
-												</div>
-										    </li>
-											<li>
-												<div class="b-link-stripe b-animate-go thickbox"> <!-- Gallery image no : 12 -->
-													    <img src="images/gallery-two-img12.jpg" class="gallery-two-image img-responsive" alt=""/>
-														<div class="b-wrapper">
-															<div class="b-animate b-from-left b-delay03 ">
-																<a href="images/photo-gallery/image-12.jpg" rel="prettyPhoto[pp_gal]">
-																	<button class="zooming md-trigger">
-																			<img src="images/zoom.png" alt=""/>
-																	</button>
-																</a>
-																<ul class="popup_links gallery-two-popup-links">
-																	<li><button><i class="link"></i></button></li>
-															        <li><button><i class="info"></i></button></li>
-															        <li><button><i class="like"></i></button></li>
-																</ul>
-															</div>
-														</div>
-												</div>
-										    </li>
-											<li>
-												<div class="b-link-stripe b-animate-go thickbox"> <!-- Gallery image no : 13 -->
-													    <img src="images/gallery-two-img13.jpg" class="gallery-two-image img-responsive" alt=""/>
-														<div class="b-wrapper">
-															<div class="b-animate b-from-left b-delay03 ">
-																<a href="images/photo-gallery/image-13.jpg" rel="prettyPhoto[pp_gal]">
-																	<button class="zooming md-trigger">
-																			<img src="images/zoom.png" alt=""/>
-																	</button>
-																</a>
-																<ul class="popup_links gallery-two-popup-links">
-																	<li><button><i class="link"></i></button></li>
-															        <li><button><i class="info"></i></button></li>
-															        <li><button><i class="like"></i></button></li>
-																</ul>
-															</div>
-														</div>
-												</div>
-										    </li>
-											
-											<!-- Only For Mobile -->
-											<li class="mobile-display-on">
-												<div class="b-link-stripe b-animate-go thickbox"> <!-- Gallery image no : 14 -->
-													    <img src="images/gallery-two-img14.jpg" class="gallery-two-image img-responsive" alt=""/>
-														<div class="b-wrapper">
-															<div class="b-animate b-from-left b-delay03 ">
-																<a href="images/photo-gallery/image-14.jpg" rel="prettyPhoto[pp_gal]">
-																	<button class="zooming md-trigger">
-																			<img src="images/zoom.png" alt=""/>
-																	</button>
-																</a>
-																<ul class="popup_links gallery-two-popup-links">
-																	<li><button><i class="link"></i></button></li>
-															        <li><button><i class="info"></i></button></li>
-															        <li><button><i class="like"></i></button></li>
-																</ul>
-															</div>
-														</div>
-												</div>
-										    </li>
-											<li class="mobile-display-on">
-												<div class="b-link-stripe b-animate-go thickbox"> <!-- Gallery image no : 15 -->
-													    <img src="images/gallery-two-img15.jpg" class="gallery-two-image img-responsive" alt=""/>
-														<div class="b-wrapper">
-															<div class="b-animate b-from-left b-delay03 ">
-																<a href="images/photo-gallery/image-15.jpg" rel="prettyPhoto[pp_gal]">
-																	<button class="zooming md-trigger">
-																			<img src="images/zoom.png" alt=""/>
-																	</button>
-																</a>
-																<ul class="popup_links gallery-two-popup-links">
-																	<li><button><i class="link"></i></button></li>
-															        <li><button><i class="info"></i></button></li>
-															        <li><button><i class="like"></i></button></li>
-																</ul>
-															</div>
-														</div>
-												</div>
-										    </li>
-											<!-- Only For Mobile -->
-											
-										</ul>
-										 <div class="clearfix"></div>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-12">
-									<div class="gallery-two-row-four wow fadeInUp">
-									    <ul class="gallery-grid-four gallery-grid-box">
-										    <li class="mobile-display-off">
-												<div class="b-link-stripe b-animate-go thickbox"> <!-- Gallery image no : 14 -->
-													    <img src="images/gallery-two-img14.jpg" class="gallery-two-image img-responsive" alt=""/>
-														<div class="b-wrapper">
-															<div class="b-animate b-from-left b-delay03 ">
-																<a href="images/photo-gallery/image-14.jpg" rel="prettyPhoto[pp_gal]">
-																	<button class="zooming md-trigger">
-																			<img src="images/zoom.png" alt=""/>
-																	</button>
-																</a>
-																<ul class="popup_links gallery-two-popup-links">
-																	<li><button><i class="link"></i></button></li>
-															        <li><button><i class="info"></i></button></li>
-															        <li><button><i class="like"></i></button></li>
-																</ul>
-															</div>
-														</div>
-												</div>
-										    </li>
-											<li class="mobile-display-off">
-												<div class="b-link-stripe b-animate-go thickbox"> <!-- Gallery image no : 15 -->
-													    <img src="images/gallery-two-img15.jpg" class="gallery-two-image img-responsive" alt=""/>
-														<div class="b-wrapper">
-															<div class="b-animate b-from-left b-delay03 ">
-																<a href="images/photo-gallery/image-15.jpg" rel="prettyPhoto[pp_gal]">
-																	<button class="zooming md-trigger">
-																			<img src="images/zoom.png" alt=""/>
-																	</button>
-																</a>
-																<ul class="popup_links gallery-two-popup-links">
-																	<li><button><i class="link"></i></button></li>
-															        <li><button><i class="info"></i></button></li>
-															        <li><button><i class="like"></i></button></li>
-																</ul>
-															</div>
-														</div>
-												</div>
-										    </li>
-											<li>
-												<div class="b-link-stripe b-animate-go thickbox"> <!-- Gallery image no : 16 -->
-													    <img src="images/gallery-two-img16.jpg" class="gallery-two-image img-responsive" alt=""/>
-														<div class="b-wrapper">
-															<div class="b-animate b-from-left b-delay03 ">
-																<a href="images/photo-gallery/image-16.jpg" rel="prettyPhoto[pp_gal]">
-																	<button class="zooming md-trigger">
-																			<img src="images/zoom.png" alt=""/>
-																	</button>
-																</a>
-																<ul class="popup_links gallery-two-popup-links">
-																	<li><button><i class="link"></i></button></li>
-															        <li><button><i class="info"></i></button></li>
-															        <li><button><i class="like"></i></button></li>
-																</ul>
-															</div>
-														</div>
-												</div>
-										    </li>
-											<li>
-												<div class="b-link-stripe b-animate-go thickbox"> <!-- Gallery image no : 17 -->
-													    <img src="images/gallery-two-img17.jpg" class="gallery-two-image img-responsive" alt=""/>
-														<div class="b-wrapper">
-															<div class="b-animate b-from-left b-delay03 ">
-																<a href="images/photo-gallery/image-17.jpg" rel="prettyPhoto[pp_gal]">
-																	<button class="zooming md-trigger">
-																			<img src="images/zoom.png" alt=""/>
-																	</button>
-																</a>
-																<ul class="popup_links gallery-two-popup-links">
-																	<li><button><i class="link"></i></button></li>
-															        <li><button><i class="info"></i></button></li>
-															        <li><button><i class="like"></i></button></li>
-																</ul>
-															</div>
-														</div>
-												</div>
-										    </li>
-											<li>
-												<div class="b-link-stripe b-animate-go thickbox"> <!-- Gallery image no : 18 -->
-													    <img src="images/gallery-two-img18.jpg" class="gallery-two-image img-responsive" alt=""/>
-														<div class="b-wrapper">
-															<div class="b-animate b-from-left b-delay03 ">
-																<a href="images/photo-gallery/image-18.jpg" rel="prettyPhoto[pp_gal]">
-																	<button class="zooming md-trigger">
-																			<img src="images/zoom.png" alt=""/>
-																	</button>
-																</a>
-																<ul class="popup_links gallery-two-popup-links">
-																	<li><button><i class="link"></i></button></li>
-															        <li><button><i class="info"></i></button></li>
-															        <li><button><i class="like"></i></button></li>
-																</ul>
-															</div>
-														</div>
-												</div>
-										    </li>
-										</ul>
-										<div class="clearfix"></div>
-									</div>
-								</div>
-							</div>
-							<div class="md-overlay"></div><!-- the overlay element -->
-		
-				</div>
-			</section>
-			
-			<section id="contact-section"> <!-- Contact info Section-->
-			
-			<!-- this is dummy heading for W3-Validation approval you can remove it if you want -->
-			<h2 class="w3-validation">For W3 Validation</h2>
-			<!-- this is dummy heading for W3-Validation approval you can remove it if you want -->
-			
-			        <div class="contact"  data-wow-delay="0.0s" id="contact">
-					       	<div class="container">
-							       	<div class="col-md-7 contact-left wow fadeInLeft">
-   			                            <a href="#" class="button-one contact_btn button-type-one button-box">Contact Us</a>
-   			                            <h4>Aliquam ac justo interdum, elementum ligula et, condimentum orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-										<div class="contact-info">
-												<ul class="contact-list-one">
-												   <li><h5>Info:</h5></li>
-												   <li>Phone : <span class="bold">+ 123-456-789-456</span></li>
-												   <li>Fax : <span class="bold">+ 123-456-789-456</span></li>
-												   <li>Email : <a href="mailto:"> info@inktattoo.net</a></li>
-												   <li>Address : <span class="bold">1234 Street Road, City Name</span></li>
-												</ul>
-												<ul class="contact-list-two">
-												   <li><h5>Work Hours:</h5></li>
-												   <li>Monday-Friday : <span class="bold">09am - 18pm</span></li>
-												   <li>SaturdaY : <span class="bold">09am - 1pm</span></li>
-												   <li>Sunday : <span class="bold">closed</span></li>
-												</ul>
-												<div class="clearfix"> </div>
-										</div>
-										<ul class="contact-social">
-											<li><a href=""> <i class="fb"> </i> </a></li>
-											<li><a href=""><i class="tw"> </i> </a></li>
-											<li><a href=""><i class="tumb"> </i> </a></li>
-											<li><a href=""><i class="linked"> </i> </a></li>
-											<li><a href=""><i class="pinterest"> </i> </a></li>
-											<li><a href=""><i class="google"> </i> </a></li>
-										</ul>
-									</div>
-									<div class="col-md-5 wow fadeInRight">
-										<div class="contact-form">
-											<form method="post">
-												<input type="text" class="textbox" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
-												<input type="text" class="textbox" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">
-												<textarea onfocus="this.value= '';" onblur="if (this.value == '') {this.value = 'Message';}">Message
-												</textarea>
-												<label class="button-two button-type-two"><input type="submit" value="Message"></label>
-											</form>
-										</div>
-									</div>
-   	                        </div>
-					</div>
-			</section>
-			
-			<section id="map-section"> <!-- Map Section -->
-			
-			<!-- this is dummy heading for W3-Validation approval you can remove it if you want -->
-			<h2 class="w3-validation">For W3 Validation</h2>
-			<!-- this is dummy heading for W3-Validation approval you can remove it if you want -->
-			
-				<div class="container-fluid">
-					<div class="row">
-					    <div class="map-div wow fadeInDown">
-						    <a href="https://www.google.com/maps/place/Aquarium+of+the+Pacific/@33.7274471,-118.2521738,12z/data="><img src="images/map.jpg" alt="" /></a>
-						</div>
-					</div>
-				</div>
-			</section>
-			
-			<section id="footer-section"> <!-- Footer Section -->
-			
-			<!-- this is dummy heading for W3-Validation approval you can remove it if you want -->
-			<h2 class="w3-validation">For W3 Validation</h2>
-			<!-- this is dummy heading for W3-Validation approval you can remove it if you want -->
-			
-				<div class="container">
-					<div class="row">
-					    <nav class="footer-nav">
-						    <ul class="nav-list wow fadeInDown" id="footer-menu">
-							    <li><a href="#">Home</a></li>
-								<li><a href="#about" class="scroll">About</a></li>
-								<li><a href="#gallery" class="scroll">Gallery</a></li>
-								<!-- logo -->
-								<li class="logo"><a href="index.html"><img src="images/logo.png" alt=""/></a></li>
-								<!-- logo -->
-								<li><a href="#faq" class="scroll">Faq</a></li>
-								<li><a href="#find" class="scroll">Find Us</a></li>
-								<li><a href="#contact" class="scroll">Contact</a></li>
-							</ul>
-						</nav>
-						<p class="copyright wow fadeInUp">&copy; 2015 InkTattoo. All Right Reserved. Developed by The <a href="http://theuncreativelab.com">Uncreative Lab</a> and <a href="http://www.themezy.com">Themezy.com</a>.</p>
-					</div>
-				</div>
-			</section>
-			
-			
-			<script type="text/javascript" charset="utf-8">
-			  $(document).ready(function(){
-				$("a[rel^='prettyPhoto']").prettyPhoto();
-			  });
-			</script>
-			
+<meta content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0' name='viewport'/>
 
-			
-			<script type="text/javascript">
-						$(document).ready(function() {
-							/*
-							var defaults = {
-					  			containerID: 'toTop', // fading element id
-								containerHoverID: 'toTopHover', // fading element hover id
-								scrollSpeed: 1200,
-								easingType: 'linear' 
-					 		};
-							*/
-							
-							$().UItoTop({ easingType: 'easeOutQuart' });
-							
-						});
-			</script>
-			
-			<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-		</body>
-</html>		
+<link href='https://s16.postimg.org/72y6bdnx1/button_bubble_info_icon.png' rel='shortcut icon'/>
+
+<title><data:blog.pageTitle/></title>
+
+&lt;style type=&quot;text/css&quot;&gt;
+&lt;!-- /*
+<b:skin><![CDATA[*/]]></b:skin>
+
+<style>
+html {
+height: 100%;
+}
+body {
+overflow-wrap: break-word;
+word-break: break-word;
+word-wrap: break-word;
+min-height: 100%;
+height: 100%;
+position: relative;
+margin: 0;
+padding: 0 0 1px;
+}
+body {
+background-size:80%;
+font-family:titillium web;
+width:100%;
+font-size:19px;
+}
+a {
+color:#000;
+}
+.widget ul {
+list-style:none;
+margin:0;
+}
+#header {
+position:fixed;
+left: 0;
+top: 0;
+z-index: 100;
+border-top: 0;
+font-weight:bold;
+height:70px;
+width:100%;
+transition: height 0.55s linear,box-shadow 0.55s linear, border-bottom 0.3s linear;
+border-bottom: 2px solid rgba(255, 165, 0, 0);
+}
+#header img {
+height:55px;
+width:auto;
+position:absolute;
+top:15px;
+left:1em;
+transition:left 0.55s linear;
+}
+#header h2 {
+height: 50px;
+position: absolute;
+top: -100%;
+margin-top: -50%;
+transition: margin-top 0.55s linear;
+font-size: 16px;
+font-family: Titillium Web;
+font-weight: normal;
+letter-spacing: 10px;
+}
+#header.stickytop {
+position: fixed;
+height: 55px;
+transition: height 0.55s linear,box-shadow 0.55s linear, border-bottom 0.3s linear;
+background: rgba(255,255,255,0.85);
+border-bottom: 2px solid rgba(255, 165, 0, 0.28);
+box-shadow: 0 0 5px #8a8a8a;
+}
+#header.stickytop img {
+position:absolute;
+left:-100%;
+transition:left 0.55s linear;
+}
+#header.stickytop h2 {
+height:50px;
+position:absolute;
+top:0;
+margin-top:15px;
+transition:margin-top 0.55s linear;
+}
+.bg {
+background:url(https://2.bp.blogspot.com/-wN38aMEP5js/WDuPJdUfmqI/AAAAAAAAAJQ/e1CPxnLGPZ0M-7oYJh8ss--n_AHakwncwCPcB/s1600/responsive_slider_pro.jpg) no-repeat center;
+position: fixed;
+width: 100%;
+height: 105%;
+top:0;
+left:0;
+z-index: -1;
+background-size:90%;
+}
+.info-bg {
+background: url(https://2.bp.blogspot.com/-wN38aMEP5js/WDuPJdUfmqI/AAAAAAAAAJQ/e1CPxnLGPZ0M-7oYJh8ss--n_AHakwncwCPcB/s1600/responsive_slider_pro.jpg) no-repeat left;
+position: fixed;
+width: 100%;
+height: 290%;
+top: 0;
+left: 5em;
+z-index: -2;
+background-size: 30%;
+}
+#info {
+padding: 3em 0;
+display: inline-block;
+width: 100%;
+margin:-1em 0;
+background: rgba(255, 255, 255, 0.65);
+}
+#notice {
+padding: 1.1em 0;
+position: fixed;
+width: 100%;
+font-size: 21px;
+color: #3e3e3e;
+text-align: center;
+font-weight: bold;
+text-transform: uppercase;
+letter-spacing: 2px;
+word-spacing: 10px;
+bottom: 0;
+transition: bottom 0.65s linear;
+background: rgba(226, 225, 225, 0.35);
+box-shadow: -1px -1px 3px rgba(109, 109, 109, 0.25);
+}
+#notice.stickytop {
+bottom: -50%;
+transition: bottom 1s linear;
+}
+#info h2 {
+font-weight: normal;
+font-size: 20px;
+display: inline-block;
+background: rgba(255, 255, 255, 0.65);
+padding: 2px 10px;
+margin: -10px 0;
+border-radius: 3px;
+}
+#info .widget{
+width: 30%;
+margin: 0 1.5%;
+display: inline-block;
+float: left;
+}
+#info .widget ul {
+list-style:none;
+padding:10px 0;
+margin:0;
+}
+#info .widget li {
+margin: 5px 0;
+}
+#info .widget ul li a {
+color: #4a4a4a;
+background: rgba(255, 255, 255, 0.65);
+padding: 2px 10px;
+margin: 11px 0;
+border-radius: 3px;
+}
+#info .widget ul li a:after {
+height:1px;
+width:100%;
+background:#909090;
+position:absolute;
+}
+.post-summary {
+padding-top: 15px;
+}
+.post-summary a {
+font-size: 16px;
+color: #4a4a4a;
+background: rgba(255, 255, 255, 0.65);
+padding: 2px 10px;
+border-radius: 3px;
+font-weight: normal;
+text-decoration: none;
+margin: 0;
+}
+.section {
+margin: 0;
+padding: 0 15px;
+}
+#main {
+margin-top: 100%;
+    display: inline-block;
+    padding: 5em 0;
+    width: 100%;
+    background: -moz-linear-gradient(top, rgba(255,255,255,0.19) 0%, rgba(255, 255, 255, 0.93) 47%, rgba(255, 255, 255, 0.19) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0.19)), color-stop(47%, rgba(255, 255, 255, 0.93)), color-stop(100%, rgba(237,237,237,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0.19) 0%, rgba(255, 255, 255, 0.93) 47%, rgba(255, 255, 255, 0.19) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,0.19) 0%, rgba(255, 255, 255, 0.93) 47%, rgba(255, 255, 255, 0.19) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,0.19) 0%, rgba(255, 255, 255, 0.93) 47%, rgba(255, 255, 255, 0.19) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,0.19) 0%, rgba(255, 255, 255, 0.93) 47%, rgba(255, 255, 255, 0.19) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=&#39;#ffffff&#39;, endColorstr=&#39;#ededed&#39;, GradientType=0 );
+}
+.headline {
+box-sizing: border-box; 
+color: #000; 
+font-family: titillium web;
+margin: 15em auto; 
+max-width: 1000px; 
+padding-left: 1em; 
+padding-right: 1em;
+}
+.headline h1 {
+box-sizing: border-box; 
+font-size: 2em; 
+font-weight: normal; 
+line-height: 1.125; 
+margin: 0px 0px 0.75em; 
+text-align: center;
+}
+.headline p {
+box-sizing: border-box;
+font-size: 25px;
+line-height: 1.33333;
+margin: 0px;
+padding: 0px 1.5em;
+text-align: center;
+font-weight: normal;
+}
+.form {
+font-size:15px;
+}
+form {
+padding:0 10px;
+}
+#ContactForm1 h2 {
+font-size:18px;
+}
+.contact-form-name, .contact-form-email, .contact-form-email-message {
+width: 100%;
+padding: 0 5px;
+min-height: 25px;
+border: 1px solid #e2e2e2;
+margin: 5px 0;
+border-radius: 2px;
+}
+.contact-form-widget {
+max-width: 100%;
+}
+.contact-form-button-submit {
+padding: 5px 25px;
+height: 35px;
+font-size: 15px;
+font-weight: normal;
+font-family: titillium web;
+margin-top:1.5em;
+background: #6969ff;
+color: #fff;
+border: none;
+cursor:pointer;
+}
+form {
+padding-left:5px 10px;
+}
+textarea {
+max-height:100px;
+}
+.footer {
+text-align: center;
+width: 100%;
+display: inline-block;
+padding: 30px 0 21px;
+font-weight: bold;
+color: #000;
+font-size: 12px;
+letter-spacing: 10px;
+background: #f7f7f7;
+}
+.footer .widget {
+margin:15px 0;
+}
+.footer span {
+font-family:sans-serif;
+}
+.footer a {
+text-decoration:none;
+}
+
+/*
+ * Header And Navigation
+ */
+
+#Image1 {
+width: 30%;
+float: left;
+display: inline-block;
+margin:0;
+}
+#header.stickytop #PageList1 {
+margin: 10px 0;
+transition: margin 0.55s linear;
+}
+#PageList1 {
+width: 70%;
+padding: 0 10px;
+position: inherit;
+margin: 35px 0;
+right: 0;
+transition: margin 0.55s linear;
+}
+#PageList1 .widget-content {
+text-align:right;
+}
+#PageList1 .widget ul {
+margin: 0;
+line-height: 1.2;
+display: inline-block;
+}
+#PageList1 .widget-content ul li {
+margin: 0 15px;
+text-indent: 0;
+display: inline-block;
+}
+.PageList LI.selected A {
+font-weight: normal;
+}
+.PageList LI A {
+font-weight: normal;
+text-decoration: none;
+letter-spacing:2px;
+}
+#header.stickytop .PageList LI A {
+
+}
+#content1 {
+background-size: 65%;
+background-attachment: fixed;
+padding: 10em 0;
+display:inline-block;
+z-index:1;
+}
+
+@media screen and (min-width:200px) and (max-width:899px) {
+
+.PageList LI {
+    margin: 10px;
+}
+
+.PageList LI A {
+    font-size: 18px;
+}
+
+#info .widget ul li {
+    margin: 10px;
+}
+
+#info .widget ul li a {
+    font-size: 18px;
+}
+
+}
+
+@media screen and (min-width:900px) {
+
+.PageList LI A {
+font-size: 16px;
+	}
+
+#info .widget ul li a {
+font-size: 16px;
+	}
+
+#content1 .widget {
+width: 37%;
+display: inline-block;
+float: left;
+padding: 35px;
+margin: 3%;
+background: rgba(241, 241, 241, 0.85);
+min-height: 380px;
+    }
+
+}
+
+@media screen and (min-width:1600px) {
+
+#info {
+padding: 10em 0;
+	}
+
+}
+
+/*
+ * Default
+ */
+
+.widget .widget-item-control a img {display:none;}
+.post-footer {display:none;}
+
+/*
+ * Extra CSS
+ */
+
+#page-loader {
+position:fixed !important;
+position:absolute;
+top:0;
+right:0;
+bottom:0;
+left:0;
+z-index:9999;
+background:#FFFFFF url(https://4.bp.blogspot.com/-JkaQwEgROXI/Vn6evUg4I7I/AAAAAAAANW0/hzQKuJjfsRw/s1600/Preloader_5.gif) no-repeat 50% 50%;
+padding:1em 1.2em;
+display:none;
+}
+
+.loader {
+position: fixed;
+left: 0px;
+top: 0px;
+width: 100%;
+height: 100%;
+z-index: 9999;
+background: url(https://s11.postimg.org/m6bdxpw8z/bloggersstand_widgets_loading_gif_animation_eff.gif) 50% 50% no-repeat rgb(249,249,249);
+/*background: url(http://3.bp.blogspot.com/-2Vjnm2QhpQs/Vn-Luh6-FJI/AAAAAAAACtU/8gtM0qaamv4/s1600/bloggersstand%2B%2Bwidgets%2Bloading%2Bgif%2Banimation%2Beffect.gif) 50% 50% no-repeat rgb(249,249,249);*/
+}
+
+
+
+
+/*animation element*/
+
+.animation-element {
+  opacity: 0;
+  position: relative;
+}
+/*animation element sliding left*/
+
+.animation-element.slide-left {
+  opacity: 0;
+  -moz-transition: all 500ms linear;
+  -webkit-transition: all 500ms linear;
+  -o-transition: all 500ms linear;
+  transition: all 500ms linear;
+  -moz-transform: translate3d(-100px, 0px, 0px);
+  -webkit-transform: translate3d(-100px, 0px, 0px);
+  -o-transform: translate(-100px, 0px);
+  -ms-transform: translate(-100px, 0px);
+  transform: translate3d(-100px, 0px, 0px);
+}
+
+.animation-element.slide-left.in-view {
+  opacity: 1;
+  -moz-transform: translate3d(0px, 0px, 0px);
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  -o-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+}
+/*animation slide left styled for testimonials*/
+
+.animation-element.slide-left.testimonial {
+  float: left;
+  width: 47%;
+  margin: 0% 1.5% 3% 1.5%;
+  background: #F5F5F5;
+  padding: 15px;
+box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+  border: solid 1px #EAEAEA;
+}
+.animation-element.slide-left.testimonial:hover,
+.animation-element.slide-left.testimonial:active{
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+.animation-element.slide-left.testimonial:nth-of-type(odd) {
+  width: 48.5%;
+  margin: 0% 1.5% 3.0% 0%;
+}
+
+.animation-element.slide-left.testimonial:nth-of-type(even) {
+  width: 48.5%;
+  margin: 0% 0% 3.0% 1.5%;
+}
+
+.animation-element.slide-left.testimonial .header{
+  float: left;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.animation-element.slide-left.testimonial .left{
+  float: left;
+  margin-right: 15px;
+}
+.animation-element.slide-left.testimonial .right{
+  float: left;
+}
+
+.animation-element.slide-left.testimonial img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  box-shadow: 0px 1px 3px rgba(51, 51, 51, 0.5);
+}
+
+.animation-element.slide-left.testimonial h3 {
+  margin: 0px 0px 5px 0px;
+}
+
+.animation-element.slide-left.testimonial h4 {
+  margin: 0px 0px 5px 0px;
+}
+
+.animation-element.slide-left.testimonial .content {
+  float: left;
+  width:100%;
+  margin-bottom: 10px;
+}
+
+.animation-element.slide-left.testimonial .rating{}
+
+.animation-element.slide-left.testimonial i {
+  color: #aaa;
+  margin-right: 5px;
+}
+
+
+
+/*media queries for small devices*/
+@media screen and (max-width: 678px){
+  /*testimonials*/
+  .animation-element.slide-left.testimonial,
+  .animation-element.slide-left.testimonial:nth-of-type(odd),
+  .animation-element.slide-left.testimonial:nth-of-type(even){
+    width: 100%;
+    margin: 0px 0px 20px 0px;
+  }
+  .animation-element.slide-left.testimonial .right,
+  .animation-element.slide-left.testimonial .left,
+  .animation-element.slide-left.testimonial .content,
+  .animation-element.slide-left.testimonial .rating{
+    text-align: center;
+    float: none;
+  }
+  .animation-element.slide-left.testimonial img{
+    width: 85px;
+    height: 85px;
+    margin-bottom: 5px;
+  }
+  
+}
+
+
+
+
+</style>
+
+
+
+
+<meta content='r0kbpaC543oXYgWjbIoFG2yiRsxBtDqzQ_HMaLaTLyQ' name='google-site-verification'/>
+
+
+
+
+</head>
+
+
+
+
+
+<body>
+
+<!--LOADING ANIMATION-->
+<div class='loader'/>
+<!--LOADING ANIMATION END-->
+
+<!-- Static page styling Start-->
+<b:if cond='data:blog.pageType == &quot;static_page&quot;'>
+<style>
+
+#static {
+float:none; 
+margin:8em auto;
+max-width:900px;
+}
+
+.post-title {
+margin: 0 0 1em 0.5em;
+font-size: 14px;
+transition: opacity 0.55s linear;
+position: fixed;
+text-transform: uppercase;
+left: 0;
+letter-spacing: 15px;
+z-index: 999;
+background: #fff;
+padding: 10px 20px;
+top: 6em;
+text-align: center;
+font-weight: bold;
+}
+.post-title.stickytop {
+transition: opacity 0.5s linear;
+left: 0;
+background: #f7f7f7;
+opacity:0;
+}
+
+#info {
+background: #f7f7f7;
+}
+</style>
+</b:if>
+<!-- Static page styling End -->
+
+
+
+
+<b:section class='header' id='header' maxwidgets='' showaddelement='yes'>
+  <b:widget id='Image1' locked='false' title='www.tmcrue.com' type='Image' version='1' visible='true'>
+    <b:includable id='main'>
+    <b:if cond='data:title != &quot;&quot;'>
+      <a href='/'><h2><data:title/></h2></a>
+    </b:if>
+    <div class='widget-content'>
+      <b:if cond='data:link'>
+        <a expr:href='data:link'>
+          <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_img&quot;' expr:src='data:sourceUrl' expr:width='data:width'/>
+        </a>
+      <b:else/>
+        <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_img&quot;' expr:src='data:sourceUrl' expr:width='data:width'/>
+      </b:if>
+      <br/>
+      <b:if cond='data:caption'>
+        <span class='caption'><data:caption/></span>
+      </b:if>
+    </div>
+    <b:include name='quickedit'/>
+  </b:includable>
+  </b:widget>
+  <b:widget id='PageList1' locked='false' title='' type='PageList' visible='true'>
+    <b:includable id='main'>
+  <b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
+  <div class='widget-content'>
+    <b:if cond='data:mobile'>
+      <select expr:id='data:widget.instanceId + &quot;_select&quot;'>
+        <b:loop values='data:links' var='link'>
+          <b:if cond='data:link.isCurrentPage'>
+            <option expr:value='data:link.href' selected='selected'><data:link.title/></option>
+          <b:else/>
+            <option expr:value='data:link.href'><data:link.title/></option>
+          </b:if>
+        </b:loop>
+      </select>
+      <span class='pagelist-arrow'>&amp;#9660;</span>
+
+    <b:else/>
+      <ul>
+        <b:loop values='data:links' var='link'>
+          <b:if cond='data:link.isCurrentPage'>
+            <li class='selected'><a expr:href='data:link.href'><data:link.title/></a></li>
+          <b:else/>
+            <li><a expr:href='data:link.href'><data:link.title/></a></li>
+          </b:if>
+        </b:loop>
+      </ul>
+    </b:if>
+    <b:include name='quickedit'/>
+  </div>
+</b:includable>
+  </b:widget>
+</b:section>
+
+
+
+
+<b:if cond='data:blog.url == data:blog.homepageUrl'>
+
+  <div class='bg'/>
+  <div id='notice'>
+	<i aria-hidden='true' class='fa fa-facebook'/>
+	<i aria-hidden='true' class='fa fa-twitter'/>
+    <i aria-hidden='true' class='fa fa-instagram'/><!--<span>  |  </span>
+	Sedang Dalam Pembinaan-->
+  </div>
+
+<b:section class='main' id='main' maxwidgets='' showaddelements='yes'>
+  <b:widget id='Text1' locked='false' title='' type='Text' visible='true'>
+    <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+  </b:widget>
+</b:section>
+
+
+<div class='animation-element slide-left testimonial'>
+<b:section class='content' id='content1' maxwidgets='' showaddelement='yes'>
+  <b:widget id='HTML4' locked='false' title='' type='HTML' visible='true'>
+    <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+  </b:widget>
+  <b:widget id='HTML2' locked='false' title='' type='HTML' visible='true'>
+    <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+  </b:widget>
+</b:section>
+  </div>
+
+
+<div class='info-bg'/>
+
+</b:if>
+
+
+
+
+<b:if cond='data:blog.pageType == &quot;static_page&quot;'>
+
+<b:section class='main-static' id='static' maxwidgets='' showaddelements='yes'>
+  <b:widget id='Blog1' locked='false' title='Blog Posts' type='Blog' version='1' visible='true'>
+    <b:includable id='main' var='top'>
+  <b:if cond='!data:mobile'>
+    <!-- posts -->
+    <div class='blog-posts hfeed'>
+
+      <b:include data='top' name='status-message'/>
+
+      <b:loop values='data:posts' var='post'>
+        <b:if cond='data:post.isDateStart and not data:post.isFirstPost'>
+          &lt;/div&gt;&lt;/div&gt;
+        </b:if>
+        <b:if cond='data:post.isDateStart'>
+          &lt;div class=&quot;date-outer&quot;&gt;
+        </b:if>
+        <b:if cond='data:post.dateHeader'>
+          <h2 class='date-header'><span><data:post.dateHeader/></span></h2>
+        </b:if>
+        <b:if cond='data:post.isDateStart'>
+          &lt;div class=&quot;date-posts&quot;&gt;
+        </b:if>
+        <div class='post-outer'>
+          <b:include data='post' name='post'/>
+          <b:include cond='data:blog.pageType in {&quot;static_page&quot;,&quot;item&quot;}' data='post' name='comment_picker'/>
+        </div>
+
+        <!-- Ad -->
+        <b:if cond='data:post.includeAd'>
+          <div class='inline-ad'>
+            <data:adCode/>
+          </div>
+        </b:if>
+      </b:loop>
+      <b:if cond='data:numPosts != 0'>
+        &lt;/div&gt;&lt;/div&gt;
+      </b:if>
+    </div>
+
+    <!-- navigation -->
+    <b:include name='nextprev'/>
+
+    <!-- feed links -->
+    <b:include name='feedLinks'/>
+
+  <b:else/>
+    <b:include name='mobile-main'/>
+  </b:if>
+
+  <b:if cond='data:top.showPlusOne'>
+    <data:top.googlePlusBootstrap/>
+  </b:if>
+
+</b:includable>
+    <b:includable id='backlinkDeleteIcon' var='backlink'>
+  <span expr:class='&quot;item-control &quot; + data:backlink.adminClass'>
+    <a expr:href='data:backlink.deleteUrl' expr:title='data:top.deleteBacklinkMsg'>
+      <img src='https://resources.blogblog.com/img/icon_delete13.gif'/>
+    </a>
+  </span>
+</b:includable>
+    <b:includable id='backlinks' var='post'>
+  <a name='links'/><h4><data:post.backlinksLabel/></h4>
+  <b:if cond='data:post.numBacklinks != 0'>
+    <dl class='comments-block' id='comments-block'>
+      <b:loop values='data:post.backlinks' var='backlink'>
+        <div class='collapsed-backlink backlink-control'>
+          <dt class='comment-title'>
+            <span class='backlink-toggle-zippy'>&#160;</span>
+            <a expr:href='data:backlink.url' rel='nofollow'><data:backlink.title/></a>
+            <b:include data='backlink' name='backlinkDeleteIcon'/>
+          </dt>
+          <dd class='comment-body collapseable'>
+            <data:backlink.snippet/>
+          </dd>
+          <dd class='comment-footer collapseable'>
+            <span class='comment-author'><data:post.authorLabel/> <data:backlink.author/></span>
+            <span class='comment-timestamp'><data:post.timestampLabel/> <data:backlink.timestamp/></span>
+          </dd>
+        </div>
+      </b:loop>
+    </dl>
+  </b:if>
+  <p class='comment-footer'>
+    <a class='comment-link' expr:href='data:post.createLinkUrl' expr:id='data:widget.instanceId + &quot;_backlinks-create-link&quot;' target='_blank'><data:post.createLinkLabel/></a>
+  </p>
+</b:includable>
+    <b:includable id='comment-form' var='post'>
+  <div class='comment-form'>
+    <a name='comment-form'/>
+    <b:if cond='data:mobile'>
+      <h4 id='comment-post-message'>
+        <a expr:id='data:widget.instanceId + &quot;_comment-editor-toggle-link&quot;' href='javascript:void(0)'><data:postCommentMsg/></a></h4>
+      <p><data:blogCommentMessage/></p>
+      <data:blogTeamBlogMessage/>
+      <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+      <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' expr:height='data:cmtIframeInitialHeight' frameborder='0' id='comment-editor' name='comment-editor' src='' style='display: none' width='100%'/>
+    <b:else/>
+      <h4 id='comment-post-message'><data:postCommentMsg/></h4>
+      <p><data:blogCommentMessage/></p>
+      <data:blogTeamBlogMessage/>
+      <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+      <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' expr:height='data:cmtIframeInitialHeight' frameborder='0' id='comment-editor' name='comment-editor' src='' width='100%'/>
+    </b:if>
+    <data:post.cmtfpIframe/>
+    <script type='text/javascript'>
+      BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;);
+    </script>
+  </div>
+</b:includable>
+    <b:includable id='commentDeleteIcon' var='comment'>
+  <span expr:class='&quot;item-control &quot; + data:comment.adminClass'>
+    <b:if cond='data:showCmtPopup'>
+      <div class='goog-toggle-button'>
+        <div class='goog-inline-block comment-action-icon'/>
+      </div>
+    <b:else/>
+      <a class='comment-delete' expr:href='data:comment.deleteUrl' expr:title='data:top.deleteCommentMsg'>
+        <img src='https://resources.blogblog.com/img/icon_delete13.gif'/>
+      </a>
+    </b:if>
+  </span>
+</b:includable>
+    <b:includable id='comment_count_picker' var='post'>
+  <b:if cond='data:post.commentSource == 1'>
+    <span class='cmt_count_iframe_holder' expr:data-count='data:post.numComments' expr:data-onclick='data:post.addCommentOnclick' expr:data-post-url='data:post.url' expr:data-url='data:post.url.canonical.http'>
+    </span>
+  <b:else/>
+    <a class='comment-link' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'>
+      <data:post.commentLabelFull/>:
+    </a>
+  </b:if>
+</b:includable>
+    <b:includable id='comment_picker' var='post'>
+  <b:if cond='data:post.commentSource == 1'>
+    <b:include data='post' name='iframe_comments'/>
+  <b:elseif cond='data:post.showThreadedComments'/>
+    <b:include data='post' name='threaded_comments'/>
+  <b:else/>
+    <b:include data='post' name='comments'/>
+  </b:if>
+</b:includable>
+    <b:includable id='comments' var='post'>
+  <div class='comments' id='comments'>
+    <a name='comments'/>
+    <b:if cond='data:post.allowComments'>
+      <h4><data:post.commentLabelFull/>:</h4>
+
+      <b:if cond='data:post.commentPagingRequired'>
+        <span class='paging-control-container'>
+          <b:if cond='data:post.hasOlderLinks'>
+            <a expr:class='data:post.oldLinkClass' expr:href='data:post.oldestLinkUrl'><data:post.oldestLinkText/></a>
+              &#160;
+            <a expr:class='data:post.oldLinkClass' expr:href='data:post.olderLinkUrl'><data:post.olderLinkText/></a>
+              &#160;
+          </b:if>
+
+          <data:post.commentRangeText/>
+
+          <b:if cond='data:post.hasNewerLinks'>
+            &#160;
+            <a expr:class='data:post.newLinkClass' expr:href='data:post.newerLinkUrl'><data:post.newerLinkText/></a>
+            &#160;
+            <a expr:class='data:post.newLinkClass' expr:href='data:post.newestLinkUrl'><data:post.newestLinkText/></a>
+          </b:if>
+        </span>
+      </b:if>
+
+      <div expr:id='data:widget.instanceId + &quot;_comments-block-wrapper&quot;'>
+        <dl expr:class='data:post.avatarIndentClass' id='comments-block'>
+          <b:loop values='data:post.comments' var='comment'>
+            <dt expr:class='&quot;comment-author &quot; + data:comment.authorClass' expr:id='data:comment.anchorName'>
+              <b:if cond='data:comment.favicon'>
+                <img expr:src='data:comment.favicon' height='16px' style='margin-bottom:-2px;' width='16px'/>
+              </b:if>
+              <a expr:name='data:comment.anchorName'/>
+              <b:if cond='data:blog.enabledCommentProfileImages'>
+                <data:comment.authorAvatarImage/>
+              </b:if>
+              <b:if cond='data:comment.authorUrl'>
+                <a expr:href='data:comment.authorUrl' rel='nofollow'><data:comment.author/></a>
+              <b:else/>
+                <data:comment.author/>
+              </b:if>
+              <data:commentPostedByMsg/>
+            </dt>
+            <dd class='comment-body' expr:id='data:widget.instanceId + data:comment.cmtBodyIdPostfix'>
+              <b:if cond='data:comment.isDeleted'>
+                <span class='deleted-comment'><data:comment.body/></span>
+              <b:else/>
+                <p>
+                  <data:comment.body/>
+                </p>
+              </b:if>
+            </dd>
+            <dd class='comment-footer'>
+              <span class='comment-timestamp'>
+                <a expr:href='data:comment.url' title='comment permalink'>
+                  <data:comment.timestamp/>
+                </a>
+                <b:include data='comment' name='commentDeleteIcon'/>
+              </span>
+            </dd>
+          </b:loop>
+        </dl>
+      </div>
+
+      <b:if cond='data:post.commentPagingRequired'>
+        <span class='paging-control-container'>
+          <a expr:class='data:post.oldLinkClass' expr:href='data:post.oldestLinkUrl'>
+            <data:post.oldestLinkText/>
+          </a>
+          <a expr:class='data:post.oldLinkClass' expr:href='data:post.olderLinkUrl'>
+            <data:post.olderLinkText/>
+          </a>
+          &#160;
+          <data:post.commentRangeText/>
+          &#160;
+          <a expr:class='data:post.newLinkClass' expr:href='data:post.newerLinkUrl'>
+            <data:post.newerLinkText/>
+          </a>
+          <a expr:class='data:post.newLinkClass' expr:href='data:post.newestLinkUrl'>
+            <data:post.newestLinkText/>
+          </a>
+        </span>
+      </b:if>
+
+      <p class='comment-footer'>
+        <b:if cond='data:post.embedCommentForm'>
+          <b:if cond='data:post.allowNewComments'>
+            <b:include data='post' name='comment-form'/>
+          <b:else/>
+            <data:post.noNewCommentsText/>
+          </b:if>
+        <b:elseif cond='data:post.allowComments'/>
+          <a expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'><data:postCommentMsg/></a>
+        </b:if>
+      </p>
+    </b:if>
+    <b:if cond='data:showCmtPopup'>
+      <div id='comment-popup'>
+        <iframe allowtransparency='true' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'>
+        </iframe>
+      </div>
+    </b:if>
+
+    <div id='backlinks-container'>
+    <div expr:id='data:widget.instanceId + &quot;_backlinks-container&quot;'>
+       <b:include cond='data:post.showBacklinks' data='post' name='backlinks'/>
+    </div>
+    </div>
+  </div>
+</b:includable>
+    <b:includable id='feedLinks'>
+  <b:if cond='data:blog.pageType != &quot;item&quot;'> <!-- Blog feed links -->
+    <b:if cond='data:feedLinks'>
+      <div class='blog-feeds'>
+        <!--<b:include data='feedLinks' name='feedLinksBody'/>-->
+      </div>
+    </b:if>
+
+  <b:else/> <!--Post feed links -->
+    <div class='post-feeds'>
+      <b:loop values='data:posts' var='post'>
+        <b:include cond='data:post.allowComments and data:post.feedLinks' data='post.feedLinks' name='feedLinksBody'/>
+      </b:loop>
+    </div>
+  </b:if>
+</b:includable>
+    <b:includable id='feedLinksBody' var='links'>
+  <div class='feed-links'>
+  <data:feedLinksMsg/>
+  <b:loop values='data:links' var='f'>
+     <a class='feed-link' expr:href='data:f.url' expr:type='data:f.mimeType' target='_blank'><data:f.name/> (<data:f.feedType/>)</a>
+  </b:loop>
+  </div>
+</b:includable>
+    <b:includable id='iframe_comments' var='post'>
+
+  <b:if cond='data:post.allowIframeComments'>
+    <script expr:src='data:post.iframeCommentSrc' type='text/javascript'/>
+    <div class='cmt_iframe_holder' expr:data-href='data:post.url.canonical' expr:data-viewtype='data:post.viewType'/>
+
+    <b:if cond='data:post.embedCommentForm == &quot;false&quot;'>
+      <a expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'><data:postCommentMsg/></a>
+    </b:if>
+  </b:if>
+</b:includable>
+    <b:includable id='mobile-index-post' var='post'>
+  <div class='mobile-date-outer date-outer'>
+    <b:if cond='data:post.dateHeader'>
+      <div class='date-header'>
+        <span><data:post.dateHeader/></span>
+      </div>
+    </b:if>
+
+    <div class='mobile-post-outer'>
+      <a expr:href='data:post.url'>
+        <h3 class='mobile-index-title entry-title' itemprop='name'>
+          <data:post.title/>
+        </h3>
+
+        <div class='mobile-index-arrow'>&amp;rsaquo;</div>
+
+        <div class='mobile-index-contents'>
+          <b:if cond='data:post.thumbnailUrl'>
+            <div class='mobile-index-thumbnail'>
+              <div class='Image'>
+                <img expr:src='data:post.thumbnailUrl'/>
+              </div>
+            </div>
+          </b:if>
+
+          <div class='post-body'>
+            <b:if cond='data:post.snippet'><data:post.snippet/></b:if>
+          </div>
+        </div>
+
+        <div style='clear: both;'/>
+      </a>
+
+      <div class='mobile-index-comment'>
+        <b:include cond='data:blog.pageType != &quot;static_page&quot;                          and data:post.allowComments                          and data:post.numComments != 0' data='post' name='comment_count_picker'/>
+      </div>
+    </div>
+  </div>
+</b:includable>
+    <b:includable id='mobile-main' var='top'>
+    <!-- posts -->
+    <div class='blog-posts hfeed'>
+
+      <b:include data='top' name='status-message'/>
+
+      <b:if cond='data:blog.pageType == &quot;index&quot;'>
+        <b:loop values='data:posts' var='post'>
+          <b:include data='post' name='mobile-index-post'/>
+        </b:loop>
+      <b:else/>
+        <b:loop values='data:posts' var='post'>
+          <b:include data='post' name='mobile-post'/>
+        </b:loop>
+      </b:if>
+    </div>
+
+   <b:include name='mobile-nextprev'/>
+</b:includable>
+    <b:includable id='mobile-nextprev'>
+  <div class='blog-pager' id='blog-pager'>
+    <b:if cond='data:newerPageUrl'>
+      <div class='mobile-link-button' id='blog-pager-newer-link'>
+      <a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:newerPageTitle'>&amp;lsaquo;</a>
+      </div>
+    </b:if>
+
+    <b:if cond='data:olderPageUrl'>
+      <div class='mobile-link-button' id='blog-pager-older-link'>
+      <a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:olderPageTitle'>&amp;rsaquo;</a>
+      </div>
+    </b:if>
+
+    <div class='mobile-link-button' id='blog-pager-home-link'>
+    <!--<a class='home-link' expr:href='data:blog.homepageUrl'><data:homeMsg/></a>-->
+    </div>
+
+    <div class='mobile-desktop-link'>
+    <!--<a class='home-link' expr:href='data:desktopLinkUrl'><data:desktopLinkMsg/></a>-->
+    </div>
+
+  </div>
+  <div class='clear'/>
+</b:includable>
+    <b:includable id='mobile-post' var='post'>
+  <div class='date-outer'>
+    <b:if cond='data:post.dateHeader'>
+      <h2 class='date-header'><span><data:post.dateHeader/></span></h2>
+    </b:if>
+    <div class='date-posts'>
+      <div class='post-outer'>
+
+        <div class='post hentry uncustomized-post-template' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+          <b:if cond='data:post.thumbnailUrl'>
+            <meta expr:content='data:post.thumbnailUrl' itemprop='image_url'/>
+          </b:if>
+          <meta expr:content='data:blog.blogId' itemprop='blogId'/>
+          <meta expr:content='data:post.id' itemprop='postId'/>
+
+          <a expr:name='data:post.id'/>
+          <b:if cond='data:post.title'>
+            <h3 class='post-title entry-title' itemprop='name'>
+              <b:if cond='data:post.link'>
+                <a expr:href='data:post.link'><data:post.title/></a>
+              <b:elseif cond='data:post.url and data:blog.url != data:post.url'/>
+                <a expr:href='data:post.url'><data:post.title/></a>
+              <b:else/>
+                <data:post.title/>
+              </b:if>
+            </h3>
+          </b:if>
+
+          <div class='post-header'>
+            <div class='post-header-line-1'/>
+          </div>
+
+          <div class='post-body entry-content' expr:id='&quot;post-body-&quot; + data:post.id' itemprop='articleBody'>
+            <data:post.body/>
+            <div style='clear: both;'/> <!-- clear for photos floats -->
+          </div>
+
+          <div class='post-footer'>
+            <div class='post-footer-line post-footer-line-1'>
+              <span class='post-author vcard'>
+                <b:if cond='data:top.showAuthor'>
+                  <b:if cond='data:post.authorProfileUrl'>
+                    <span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+                      <meta expr:content='data:post.authorProfileUrl' itemprop='url'/>
+                      <a expr:href='data:post.authorProfileUrl' rel='author' title='author profile'>
+                        <span itemprop='name'><data:post.author/></span>
+                      </a>
+                    </span>
+                  <b:else/>
+                    <span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+                      <span itemprop='name'><data:post.author/></span>
+                    </span>
+                  </b:if>
+                </b:if>
+              </span>
+
+              <span class='post-timestamp'>
+                <b:if cond='data:top.showTimestamp'>
+                  <data:top.timestampLabel/>
+                  <b:if cond='data:post.url'>
+                    <meta expr:content='data:post.url.canonical' itemprop='url'/>
+                    <a class='timestamp-link' expr:href='data:post.url' rel='bookmark' title='permanent link'><abbr class='published' expr:title='data:post.timestampISO8601' itemprop='datePublished'><data:post.timestamp/></abbr></a>
+                  </b:if>
+                </b:if>
+              </span>
+
+              <span class='post-comment-link'>
+                <b:include cond='data:blog.pageType not in {&quot;item&quot;,&quot;static_page&quot;}                                  and data:post.allowComments' data='post' name='comment_count_picker'/>
+              </span>
+            </div>
+
+            <div class='post-footer-line post-footer-line-2'>
+              <b:if cond='data:top.showMobileShare'>
+                <div class='mobile-link-button goog-inline-block' id='mobile-share-button'>
+                  <a href='javascript:void(0);'><data:shareMsg/></a>
+                </div>
+              </b:if>
+              <b:if cond='data:top.showDummy'>
+                <div class='goog-inline-block dummy-container'><data:post.dummyTag/></div>
+              </b:if>
+            </div>
+
+          </div>
+        </div>
+
+        <b:include cond='data:blog.pageType in {&quot;static_page&quot;,&quot;item&quot;}' data='post' name='comment_picker'/>
+      </div>
+    </div>
+  </div>
+</b:includable>
+    <b:includable id='nextprev'>
+  <div class='blog-pager' id='blog-pager'>
+    <b:if cond='data:newerPageUrl'>
+      <span id='blog-pager-newer-link'>
+      <!--<a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:newerPageTitle'><data:newerPageTitle/></a>-->
+      </span>
+    </b:if>
+
+    <b:if cond='data:olderPageUrl'>
+      <span id='blog-pager-older-link'>
+      <!--<a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:olderPageTitle'><data:olderPageTitle/></a>-->
+      </span>
+    </b:if>
+
+    <!--<a class='home-link' expr:href='data:blog.homepageUrl'><data:homeMsg/></a>-->
+
+    <b:if cond='data:mobileLinkUrl'>
+      <div class='blog-mobile-link'>
+        <a expr:href='data:mobileLinkUrl'><data:mobileLinkMsg/></a>
+      </div>
+    </b:if>
+
+  </div>
+  <div class='clear'/>
+</b:includable>
+    <b:includable id='post' var='post'>
+  <div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+    <b:if cond='data:post.firstImageUrl'>
+      <meta expr:content='data:post.firstImageUrl' itemprop='image_url'/>
+    </b:if>
+    <meta expr:content='data:blog.blogId' itemprop='blogId'/>
+    <meta expr:content='data:post.id' itemprop='postId'/>
+
+    <a expr:name='data:post.id'/>
+    <b:if cond='data:post.title'>
+      <h3 class='post-title entry-title' itemprop='name'>
+      <b:if cond='data:post.link or (data:post.url and data:blog.url != data:post.url)'>
+        <a expr:href='data:post.link ? data:post.link : data:post.url'><data:post.title/></a>
+      <b:else/>
+        <data:post.title/>
+      </b:if>
+      </h3>
+    </b:if>
+
+    <div class='post-header'>
+    <div class='post-header-line-1'/>
+    </div>
+
+    <!-- Then use the post body as the schema.org description, for good G+/FB snippeting. -->
+    <div class='post-body entry-content' expr:id='&quot;post-body-&quot; + data:post.id' expr:itemprop='(data:blog.metaDescription ? &quot;&quot; : &quot;description &quot;) + &quot;articleBody&quot;'>
+      <data:post.body/>
+      <div style='clear: both;'/> <!-- clear for photos floats -->
+    </div>
+
+    <b:if cond='data:post.hasJumpLink'>
+      <div class='jump-link'>
+        <a expr:href='data:post.url + &quot;#more&quot;' expr:title='data:post.title'><data:post.jumpText/></a>
+      </div>
+    </b:if>
+
+    <div class='post-footer'>
+    <div class='post-footer-line post-footer-line-1'>
+      <span class='post-author vcard'>
+        <b:if cond='data:top.showAuthor'>
+          <data:top.authorLabel/>
+            <b:if cond='data:post.authorProfileUrl'>
+              <span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+                <meta expr:content='data:post.authorProfileUrl' itemprop='url'/>
+                <a class='g-profile' expr:href='data:post.authorProfileUrl' rel='author' title='author profile'>
+                  <span itemprop='name'><data:post.author/></span>
+                </a>
+              </span>
+            <b:else/>
+              <span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+                <span itemprop='name'><data:post.author/></span>
+              </span>
+            </b:if>
+        </b:if>
+      </span>
+
+      <span class='post-timestamp'>
+        <b:if cond='data:top.showTimestamp'>
+          <data:top.timestampLabel/>
+          <b:if cond='data:post.url'>
+            <meta expr:content='data:post.url.canonical' itemprop='url'/>
+            <a class='timestamp-link' expr:href='data:post.url' rel='bookmark' title='permanent link'><abbr class='published' expr:title='data:post.timestampISO8601' itemprop='datePublished'><data:post.timestamp/></abbr></a>
+          </b:if>
+        </b:if>
+      </span>
+
+      <span class='reaction-buttons'>
+        <b:if cond='data:top.showReactions'>
+          <table border='0' cellpadding='0' cellspacing='0' width='100%'><tr>
+            <td class='reactions-label-cell' nowrap='nowrap' valign='top' width='1%'>
+              <span class='reactions-label'>
+              <data:top.reactionsLabel/></span>&#160;</td>
+            <td><iframe allowtransparency='true' class='reactions-iframe' expr:src='data:post.reactionsUrl' frameborder='0' name='reactions' scrolling='no'/></td>
+           </tr></table>
+        </b:if>
+      </span>
+
+      <span class='post-comment-link'>
+        <b:include cond='data:blog.pageType not in {&quot;item&quot;,&quot;static_page&quot;}                          and data:post.allowComments' data='post' name='comment_count_picker'/>
+      </span>
+
+       <!-- backlinks -->
+       <span class='post-backlinks post-comment-link'>
+         <b:if cond='data:blog.pageType not in {&quot;item&quot;,&quot;static_page&quot;}                      and data:post.showBacklinks'>
+           <a class='comment-link' expr:href='data:post.url + &quot;#links&quot;'><data:top.backlinkLabel/></a>
+         </b:if>
+       </span>
+
+      <span class='post-icons'>
+        <!-- email post links -->
+        <b:if cond='data:post.emailPostUrl'>
+          <span class='item-action'>
+          <a expr:href='data:post.emailPostUrl' expr:title='data:top.emailPostMsg'>
+            <img alt='' class='icon-action' height='13' src='https://resources.blogblog.com/img/icon18_email.gif' width='18'/>
+          </a>
+          </span>
+        </b:if>
+
+        <!-- quickedit pencil -->
+        <b:include data='post' name='postQuickEdit'/>
+      </span>
+
+      <!-- share buttons -->
+      <div class='post-share-buttons goog-inline-block'>
+        <b:include cond='data:post.sharePostUrl' data='post' name='shareButtons'/>
+      </div>
+
+      </div>
+
+      <div class='post-footer-line post-footer-line-2'>
+      <span class='post-labels'>
+        <b:if cond='data:top.showPostLabels and data:post.labels'>
+          <data:postLabelsLabel/>
+          <b:loop values='data:post.labels' var='label'>
+            <a expr:href='data:label.url' rel='tag'><data:label.name/></a><b:if cond='not data:label.isLast'>,</b:if>
+          </b:loop>
+        </b:if>
+      </span>
+      </div>
+
+      <div class='post-footer-line post-footer-line-3'>
+      <span class='post-location'>
+        <b:if cond='data:top.showLocation and data:post.location'>
+          <data:postLocationLabel/>
+          <a expr:href='data:post.location.mapsUrl' target='_blank'><data:post.location.name/></a>
+        </b:if>
+      </span>
+      </div>
+      <b:if cond='data:post.authorAboutMe'>
+        <div class='author-profile' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+          <b:if cond='data:post.authorPhoto.url'>
+            <img expr:src='data:post.authorPhoto.url' itemprop='image' width='50px'/>
+          </b:if>
+          <div>
+            <a class='g-profile' expr:href='data:post.authorProfileUrl' itemprop='url' rel='author' title='author profile'>
+              <span itemprop='name'><data:post.author/></span>
+            </a>
+          </div>
+          <span itemprop='description'><data:post.authorAboutMe/></span>
+        </div>
+      </b:if>
+    </div>
+  </div>
+</b:includable>
+    <b:includable id='postQuickEdit' var='post'>
+  <b:if cond='data:post.editUrl'>
+    <span expr:class='&quot;item-control &quot; + data:post.adminClass'>
+      <a expr:href='data:post.editUrl' expr:title='data:top.editPostMsg'>
+        <img alt='' class='icon-action' height='18' src='https://resources.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+      </a>
+    </span>
+  </b:if>
+</b:includable>
+    <b:includable id='shareButtons' var='post'>
+  <b:if cond='data:top.showEmailButton'><a class='goog-inline-block share-button sb-email' expr:href='data:post.sharePostUrl + &quot;&amp;target=email&quot;' expr:title='data:top.emailThisMsg' target='_blank'><span class='share-button-link-text'><data:top.emailThisMsg/></span></a></b:if><b:if cond='data:top.showBlogThisButton'><a class='goog-inline-block share-button sb-blog' expr:href='data:post.sharePostUrl + &quot;&amp;target=blog&quot;' expr:onclick='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=270,width=475\&quot;); return false;&quot;' expr:title='data:top.blogThisMsg' target='_blank'><span class='share-button-link-text'><data:top.blogThisMsg/></span></a></b:if><b:if cond='data:top.showTwitterButton'><a class='goog-inline-block share-button sb-twitter' expr:href='data:post.sharePostUrl + &quot;&amp;target=twitter&quot;' expr:title='data:top.shareToTwitterMsg' target='_blank'><span class='share-button-link-text'><data:top.shareToTwitterMsg/></span></a></b:if><b:if cond='data:top.showFacebookButton'><a class='goog-inline-block share-button sb-facebook' expr:href='data:post.sharePostUrl + &quot;&amp;target=facebook&quot;' expr:onclick='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=430,width=640\&quot;); return false;&quot;' expr:title='data:top.shareToFacebookMsg' target='_blank'><span class='share-button-link-text'><data:top.shareToFacebookMsg/></span></a></b:if><b:if cond='data:top.showPinterestButton'><a class='goog-inline-block share-button sb-pinterest' expr:href='data:post.sharePostUrl + &quot;&amp;target=pinterest&quot;' expr:title='data:top.shareToPinterestMsg' target='_blank'><span class='share-button-link-text'><data:top.shareToPinterestMsg/></span></a></b:if><b:if cond='data:top.showPlusOne'><div class='goog-inline-block google-plus-share-container'><data:post.googlePlusShareTag/></div></b:if>
+</b:includable>
+    <b:includable id='status-message'>
+  <b:if cond='data:navMessage'>
+  <div class='status-msg-wrap'>
+    <div class='status-msg-body'>
+      <data:navMessage/>
+    </div>
+    <div class='status-msg-border'>
+      <div class='status-msg-bg'>
+        <div class='status-msg-hidden'><data:navMessage/></div>
+      </div>
+    </div>
+  </div>
+  <div style='clear: both;'/>
+  </b:if>
+</b:includable>
+    <b:includable id='threaded-comment-form' var='post'>
+  <div class='comment-form'>
+    <a name='comment-form'/>
+    <b:if cond='data:mobile'>
+      <p><data:blogCommentMessage/></p>
+      <data:blogTeamBlogMessage/>
+      <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+      <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' expr:height='data:cmtIframeInitialHeight' frameborder='0' id='comment-editor' name='comment-editor' src='' style='display: none' width='100%'/>
+    <b:else/>
+      <p><data:blogCommentMessage/></p>
+      <data:blogTeamBlogMessage/>
+      <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+      <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' expr:height='data:cmtIframeInitialHeight' frameborder='0' id='comment-editor' name='comment-editor' src='' width='100%'/>
+    </b:if>
+    <data:post.cmtfpIframe/>
+    <script type='text/javascript'>
+      BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;);
+    </script>
+  </div>
+</b:includable>
+    <b:includable id='threaded_comment_js' var='post'>
+  <script async='async' expr:src='data:post.commentSrc' type='text/javascript'/>
+
+  <script type='text/javascript'>
+    (function() {
+      var items = <data:post.commentJso/>;
+      var msgs = <data:post.commentMsgs/>;
+      var config = <data:post.commentConfig/>;
+
+// <![CDATA[
+      var cursor = null;
+      if (items && items.length > 0) {
+        cursor = parseInt(items[items.length - 1].timestamp) + 1;
+      }
+
+      var bodyFromEntry = function(entry) {
+        if (entry.gd$extendedProperty) {
+          for (var k in entry.gd$extendedProperty) {
+            if (entry.gd$extendedProperty[k].name == 'blogger.contentRemoved') {
+              return '<span class="deleted-comment">' + entry.content.$t + '</span>';
+            }
+          }
+        }
+        return entry.content.$t;
+      }
+
+      var parse = function(data) {
+        cursor = null;
+        var comments = [];
+        if (data && data.feed && data.feed.entry) {
+          for (var i = 0, entry; entry = data.feed.entry[i]; i++) {
+            var comment = {};
+            // comment ID, parsed out of the original id format
+            var id = /blog-(\d+).post-(\d+)/.exec(entry.id.$t);
+            comment.id = id ? id[2] : null;
+            comment.body = bodyFromEntry(entry);
+            comment.timestamp = Date.parse(entry.published.$t) + '';
+            if (entry.author && entry.author.constructor === Array) {
+              var auth = entry.author[0];
+              if (auth) {
+                comment.author = {
+                  name: (auth.name ? auth.name.$t : undefined),
+                  profileUrl: (auth.uri ? auth.uri.$t : undefined),
+                  avatarUrl: (auth.gd$image ? auth.gd$image.src : undefined)
+                };
+              }
+            }
+            if (entry.link) {
+              if (entry.link[2]) {
+                comment.link = comment.permalink = entry.link[2].href;
+              }
+              if (entry.link[3]) {
+                var pid = /.*comments\/default\/(\d+)\?.*/.exec(entry.link[3].href);
+                if (pid && pid[1]) {
+                  comment.parentId = pid[1];
+                }
+              }
+            }
+            comment.deleteclass = 'item-control blog-admin';
+            if (entry.gd$extendedProperty) {
+              for (var k in entry.gd$extendedProperty) {
+                if (entry.gd$extendedProperty[k].name == 'blogger.itemClass') {
+                  comment.deleteclass += ' ' + entry.gd$extendedProperty[k].value;
+                } else if (entry.gd$extendedProperty[k].name == 'blogger.displayTime') {
+                  comment.displayTime = entry.gd$extendedProperty[k].value;
+                }
+              }
+            }
+            comments.push(comment);
+          }
+        }
+        return comments;
+      };
+
+      var paginator = function(callback) {
+        if (hasMore()) {
+          var url = config.feed + '?alt=json&v=2&orderby=published&reverse=false&max-results=50';
+          if (cursor) {
+            url += '&published-min=' + new Date(cursor).toISOString();
+          }
+          window.bloggercomments = function(data) {
+            var parsed = parse(data);
+            cursor = parsed.length < 50 ? null
+                : parseInt(parsed[parsed.length - 1].timestamp) + 1
+            callback(parsed);
+            window.bloggercomments = null;
+          }
+          url += '&callback=bloggercomments';
+          var script = document.createElement('script');
+          script.type = 'text/javascript';
+          script.src = url;
+          document.getElementsByTagName('head')[0].appendChild(script);
+        }
+      };
+      var hasMore = function() {
+        return !!cursor;
+      };
+      var getMeta = function(key, comment) {
+        if ('iswriter' == key) {
+          var matches = !!comment.author
+              && comment.author.name == config.authorName
+              && comment.author.profileUrl == config.authorUrl;
+          return matches ? 'true' : '';
+        } else if ('deletelink' == key) {
+          return config.baseUri + '/delete-comment.g?blogID='
+               + config.blogId + '&postID=' + comment.id;
+        } else if ('deleteclass' == key) {
+          return comment.deleteclass;
+        }
+        return '';
+      };
+
+      var replybox = null;
+      var replyUrlParts = null;
+      var replyParent = undefined;
+
+      var onReply = function(commentId, domId) {
+        if (replybox == null) {
+          // lazily cache replybox, and adjust to suit this style:
+          replybox = document.getElementById('comment-editor');
+          if (replybox != null) {
+            replybox.height = '250px';
+            replybox.style.display = 'block';
+            replyUrlParts = replybox.src.split('#');
+          }
+        }
+        if (replybox && (commentId !== replyParent)) {
+          replybox.src = '';
+          document.getElementById(domId).insertBefore(replybox, null);
+          replybox.src = replyUrlParts[0]
+              + (commentId ? '&parentID=' + commentId : '')
+              + '#' + replyUrlParts[1];
+          replyParent = commentId;
+        }
+      };
+
+      var hash = (window.location.hash || '#').substring(1);
+      var startThread, targetComment;
+      if (/^comment-form_/.test(hash)) {
+        startThread = hash.substring('comment-form_'.length);
+      } else if (/^c[0-9]+$/.test(hash)) {
+        targetComment = hash.substring(1);
+      }
+
+      // Configure commenting API:
+      var configJso = {
+        'maxDepth': config.maxThreadDepth
+      };
+      var provider = {
+        'id': config.postId,
+        'data': items,
+        'loadNext': paginator,
+        'hasMore': hasMore,
+        'getMeta': getMeta,
+        'onReply': onReply,
+        'rendered': true,
+        'initComment': targetComment,
+        'initReplyThread': startThread,
+        'config': configJso,
+        'messages': msgs
+      };
+
+      var render = function() {
+        if (window.goog && window.goog.comments) {
+          var holder = document.getElementById('comment-holder');
+          window.goog.comments.render(holder, provider);
+        }
+      };
+
+      // render now, or queue to render when library loads:
+      if (window.goog && window.goog.comments) {
+        render();
+      } else {
+        window.goog = window.goog || {};
+        window.goog.comments = window.goog.comments || {};
+        window.goog.comments.loadQueue = window.goog.comments.loadQueue || [];
+        window.goog.comments.loadQueue.push(render);
+      }
+    })();
+// ]]>
+  </script>
+</b:includable>
+    <b:includable id='threaded_comments' var='post'>
+  <div class='comments' id='comments'>
+    <a name='comments'/>
+    <h4><data:post.commentLabelFull/>:</h4>
+
+    <div class='comments-content'>
+      <b:include cond='data:post.embedCommentForm' data='post' name='threaded_comment_js'/>
+      <div id='comment-holder'>
+         <data:post.commentHtml/>
+      </div>
+    </div>
+
+    <p class='comment-footer'>
+      <b:if cond='data:post.allowNewComments'>
+        <b:include data='post' name='threaded-comment-form'/>
+      <b:else/>
+        <data:post.noNewCommentsText/>
+      </b:if>
+    </p>
+
+    <b:if cond='data:showCmtPopup'>
+      <div id='comment-popup'>
+        <iframe allowtransparency='true' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'>
+        </iframe>
+      </div>
+    </b:if>
+
+    <div id='backlinks-container'>
+    <div expr:id='data:widget.instanceId + &quot;_backlinks-container&quot;'>
+      <b:include cond='data:post.showBacklinks' data='post' name='backlinks'/>
+    </div>
+    </div>
+  </div>
+</b:includable>
+  </b:widget>
+</b:section>
+
+</b:if>
+
+
+
+
+<script type='application/ld+json'>
+{
+  &quot;@context&quot;: &quot;http://schema.org/&quot;,
+  &quot;@type&quot;: &quot;Product&quot;,
+  &quot;name&quot;: &quot;TM Crue&quot;,
+  &quot;image&quot;: &quot;https://4.bp.blogspot.com/-Rx23sMwWEag/WD30LvyeEQI/AAAAAAAAANA/EhHcW_-nH8Up25gO-MPsV5j67ZO2iBQvACK4B/s1600/onlinelogomaker-tmcrue.png&quot;,
+  &quot;description&quot;: &quot;Laman web profesional dengan harga yang terjangkau. Di khususkan kepada mereka yang baru bermula di dalam perniagaan atau memerlukan laman web untuk mengembangkan perniagaan&quot;,
+  &quot;mpn&quot;: &quot;925872&quot;,
+  &quot;brand&quot;: {
+    &quot;@type&quot;: &quot;Thing&quot;,
+    &quot;name&quot;: &quot;Bina Laman Web / Website Design&quot;
+  },
+  &quot;aggregateRating&quot;: {
+    &quot;@type&quot;: &quot;AggregateRating&quot;,
+    &quot;ratingValue&quot;: &quot;4.4&quot;,
+    &quot;reviewCount&quot;: &quot;89&quot;
+  },
+  &quot;offers&quot;: {
+    &quot;@type&quot;: &quot;Offer&quot;,
+    &quot;priceCurrency&quot;: &quot;MYR&quot;,
+    &quot;price&quot;: &quot;180.00&quot;,
+    &quot;priceValidUntil&quot;: &quot;2017-6-30&quot;,
+    &quot;itemCondition&quot;: &quot;http://schema.org/UsedCondition&quot;,
+    &quot;availability&quot;: &quot;http://schema.org/InStock&quot;,
+    &quot;seller&quot;: {
+      &quot;@type&quot;: &quot;Organization&quot;,
+      &quot;name&quot;: &quot;Consultant And Web Designer&quot;
+    }
+  }
+}
+</script>
+
+
+<b:section class='info' id='info' maxwidgets='' showaddelement='yes'>
+  <b:widget id='PageList2' locked='false' title='Links' type='PageList' visible='true'>
+    <b:includable id='main'>
+  <b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
+  <div class='widget-content'>
+    <b:if cond='data:mobile'>
+      <select expr:id='data:widget.instanceId + &quot;_select&quot;'>
+        <b:loop values='data:links' var='link'>
+          <b:if cond='data:link.isCurrentPage'>
+            <option expr:value='data:link.href' selected='selected'><data:link.title/></option>
+          <b:else/>
+            <option expr:value='data:link.href'><data:link.title/></option>
+          </b:if>
+        </b:loop>
+      </select>
+      <span class='pagelist-arrow'>&amp;#9660;</span>
+
+    <b:else/>
+      <ul>
+        <b:loop values='data:links' var='link'>
+          <b:if cond='data:link.isCurrentPage'>
+            <li class='selected'><a expr:href='data:link.href'><data:link.title/></a></li>
+          <b:else/>
+            <li><a expr:href='data:link.href'><data:link.title/></a></li>
+          </b:if>
+        </b:loop>
+      </ul>
+    </b:if>
+    <b:include name='quickedit'/>
+  </div>
+</b:includable>
+  </b:widget>
+  <b:widget id='PageList3' locked='false' title='Pages' type='PageList' visible='true'>
+    <b:includable id='main'>
+  <b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
+  <div class='widget-content'>
+    <b:if cond='data:mobile'>
+      <select expr:id='data:widget.instanceId + &quot;_select&quot;'>
+        <b:loop values='data:links' var='link'>
+          <b:if cond='data:link.isCurrentPage'>
+            <option expr:value='data:link.href' selected='selected'><data:link.title/></option>
+          <b:else/>
+            <option expr:value='data:link.href'><data:link.title/></option>
+          </b:if>
+        </b:loop>
+      </select>
+      <span class='pagelist-arrow'>&amp;#9660;</span>
+
+    <b:else/>
+      <ul>
+        <b:loop values='data:links' var='link'>
+          <b:if cond='data:link.isCurrentPage'>
+            <li class='selected'><a expr:href='data:link.href'><data:link.title/></a></li>
+          <b:else/>
+            <li><a expr:href='data:link.href'><data:link.title/></a></li>
+          </b:if>
+        </b:loop>
+      </ul>
+    </b:if>
+    <b:include name='quickedit'/>
+  </div>
+</b:includable>
+  </b:widget>
+  <b:widget id='ContactForm1' locked='false' title='Maklumat Lanjut' type='ContactForm' version='1' visible='true'>
+    <b:includable id='main'>
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='contact-form-widget'>
+    <div class='form'>
+      <form name='contact-form'>
+        <p/>
+        <data:contactFormNameMsg/>
+        <br/>
+        <input class='contact-form-name' expr:id='data:widget.instanceId + &quot;_contact-form-name&quot;' name='name' size='30' type='text' value=''/>
+        <p/>
+        <data:contactFormEmailMsg/> <span style='font-weight: bolder;'>*</span>
+        <br/>
+        <input class='contact-form-email' expr:id='data:widget.instanceId + &quot;_contact-form-email&quot;' name='email' size='30' type='text' value=''/>
+        <p/>
+        <data:contactFormMessageMsg/> <span style='font-weight: bolder;'>*</span>
+        <br/>
+        <textarea class='contact-form-email-message' cols='25' expr:id='data:widget.instanceId + &quot;_contact-form-email-message&quot;' name='email-message' rows='5' style='height:100px;'/>
+        <p/>
+        <input class='contact-form-button contact-form-button-submit' expr:id='data:widget.instanceId + &quot;_contact-form-submit&quot;' expr:value='data:contactFormSendMsg' type='button'/>
+        <p/>
+        <div style='text-align: center; max-width: 222px; width: 100%'>
+          <p class='contact-form-error-message' expr:id='data:widget.instanceId + &quot;_contact-form-error-message&quot;'/>
+          <p class='contact-form-success-message' expr:id='data:widget.instanceId + &quot;_contact-form-success-message&quot;'/>
+        </div>
+      </form>
+    </div>
+  </div>
+  <b:include name='quickedit'/>
+</b:includable>
+  </b:widget>
+</b:section> 
+
+ <b:section class='footer' id='footer' maxwidgets='' showaddelements='yes'>
+    <b:widget id='HTML3' locked='false' title='' type='HTML' visible='true'>
+      <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+    </b:widget>
+    <b:widget id='HTML1' locked='false' title='' type='HTML' visible='true'>
+      <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+    </b:widget>
+  </b:section>
+
+<!--Footer Script and Style-->
+
+
+
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js' type='text/javascript'/>
+
+<script type='text/javascript'>
+$(function(){
+var $window = $(window);
+var $shahriennoor = $(&#39;.header&#39;);
+
+$window.scroll(function() {
+if ($window.scrollTop() &gt;= 290) {
+$shahriennoor.addClass(&#39;stickytop&#39;);
+}
+else {
+$shahriennoor.removeClass(&#39;stickytop&#39;);
+}
+});
+});
+</script>
+
+<script type='text/javascript'>
+$(function(){
+var $window = $(window);
+var $shahriennoor = $(&#39;#notice&#39;);
+
+$window.scroll(function() {
+if ($window.scrollTop() &gt;= 290) {
+$shahriennoor.addClass(&#39;stickytop&#39;);
+}
+else {
+$shahriennoor.removeClass(&#39;stickytop&#39;);
+}
+});
+});
+</script>
+
+<script type='text/javascript'>
+$(function(){
+var $window = $(window);
+var $shahriennoor = $(&#39;.post-title&#39;);
+
+$window.scroll(function() {
+if ($window.scrollTop() &gt;= 250) {
+$shahriennoor.addClass(&#39;stickytop&#39;);
+}
+else {
+$shahriennoor.removeClass(&#39;stickytop&#39;);
+}
+});
+});
+</script>
+
+<script type='text/javascript'>
+$(window).scroll(function(e){
+  parallax();
+});
+function parallax(){
+
+  var scrolled = $(window).scrollTop();
+  $(&#39;.bg&#39;).css(&#39;top&#39;,-(scrolled*0.2)+&#39;px&#39;);
+
+  var scrolled = $(window).scrollTop();
+  $(&#39;.info-bg&#39;).css(&#39;top&#39;,-(scrolled*0.2)+&#39;px&#39;);
+
+}
+</script>
+
+<link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet'/>
+
+<link href='https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css' rel='stylesheet'/>
+
+<style>
+.fa {
+font-size:20px;
+}
+</style>
+
+<!--End Footer Script and Style-->
+
+
+<!--LOADING ANIMATION-->
+
+<script src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'/>
+
+<script type='text/javascript'>
+$(window).load(function() {
+    $(&quot;.loader&quot;).fadeOut(&quot;slow&quot;);
+})
+</script>
+
+<!--LOADING ANIMATION END-->
+
+
+
+<script>
+
+var $animation_elements = $(&#39;.animation-element&#39;);
+var $window = $(window);
+
+function check_if_in_view() {
+  var window_height = $window.height();
+  var window_top_position = $window.scrollTop();
+  var window_bottom_position = (window_top_position + window_height);
+ 
+  $.each($animation_elements, function() {
+    var $element = $(this);
+    var element_height = $element.outerHeight();
+    var element_top_position = $element.offset().top;
+    var element_bottom_position = (element_top_position + element_height);
+ 
+    //check to see if this current container is within viewport
+    if ((element_bottom_position &gt;= window_top_position) &amp;&amp;
+        (element_top_position &lt;= window_bottom_position)) {
+      $element.addClass(&#39;in-view&#39;);
+    } else {
+      $element.removeClass(&#39;in-view&#39;);
+    }
+  });
+}
+
+$window.on(&#39;scroll resize&#39;, check_if_in_view);
+$window.trigger(&#39;scroll&#39;);
+
+</script>
+
+
+
+</body>
+</html>
