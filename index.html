@@ -76,6 +76,8 @@
    </div>
 </div>
  
+
+ 
 <div class="content section" id="content1" style="perspective: 500px;">
    <div class="widget HTML" data-version="1" id="HTML4" style="transition: 0.5s; opacity: 0; transform: translateX(100px) translateY(100px) rotate3d(1, 1, 1, 90deg);">
       <div class="widget-content">
@@ -130,8 +132,6 @@ $shahriennoor.removeClass('stickytop');
 });
 });
 </script>
-<script type="text/rocketscript" data-rocketoptimized="true">
-$(function(){
 
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js' type='text/javascript'/>
 
@@ -212,7 +212,7 @@ font-size:20px;
 
 <script type='text/javascript'>
 $(window).load(function() {
-    $(&quot;.loader&quot;).fadeOut(&quot;slow&quot;);
+    $('.loader').fadeOut('slow');
 })
 </script>
 
@@ -223,9 +223,9 @@ $(window).load(function() {
 
 <script>
   // Attach Smoove to elements and set default options
-  $(&quot;#content1 .widget&quot;).smoove({
+  $('#content1 .widget').smoove({
     offset  : '15%',
-    // moveX is overridden to -200px for &quot;.bar&quot; object
+    // moveX is overridden to -200px for '.bar' object
     moveX   : '100px',
     moveY   : '100px',
     rotate3d: '1,1,1,90deg',
