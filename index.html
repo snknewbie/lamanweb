@@ -296,14 +296,14 @@ $(function(){
 <script type='text/javascript'>
 $(function(){
 var $window = $(window);
-var $shahriennoor = $(&#39;.header&#39;);
+var $shahriennoor = $('.header');
 
 $window.scroll(function() {
 if ($window.scrollTop() &gt;= 290) {
-$shahriennoor.addClass(&#39;stickytop&#39;);
+$shahriennoor.addClass('stickytop');
 }
 else {
-$shahriennoor.removeClass(&#39;stickytop&#39;);
+$shahriennoor.removeClass('stickytop');
 }
 });
 });
@@ -312,14 +312,14 @@ $shahriennoor.removeClass(&#39;stickytop&#39;);
 <script type='text/javascript'>
 $(function(){
 var $window = $(window);
-var $shahriennoor = $(&#39;#notice&#39;);
+var $shahriennoor = $('#notice');
 
 $window.scroll(function() {
 if ($window.scrollTop() &gt;= 290) {
-$shahriennoor.addClass(&#39;stickytop&#39;);
+$shahriennoor.addClass('stickytop');
 }
 else {
-$shahriennoor.removeClass(&#39;stickytop&#39;);
+$shahriennoor.removeClass('stickytop');
 }
 });
 });
@@ -328,14 +328,14 @@ $shahriennoor.removeClass(&#39;stickytop&#39;);
 <script type='text/javascript'>
 $(function(){
 var $window = $(window);
-var $shahriennoor = $(&#39;.post-title&#39;);
+var $shahriennoor = $('.post-title');
 
 $window.scroll(function() {
 if ($window.scrollTop() &gt;= 250) {
-$shahriennoor.addClass(&#39;stickytop&#39;);
+$shahriennoor.addClass('stickytop');
 }
 else {
-$shahriennoor.removeClass(&#39;stickytop&#39;);
+$shahriennoor.removeClass('stickytop');
 }
 });
 });
@@ -348,10 +348,10 @@ $(window).scroll(function(e){
 function parallax(){
 
   var scrolled = $(window).scrollTop();
-  $(&#39;.bg&#39;).css(&#39;top&#39;,-(scrolled*0.2)+&#39;px&#39;);
+  $('.bg').css('top',-(scrolled*0.2)+'px');
 
   var scrolled = $(window).scrollTop();
-  $(&#39;.info-bg&#39;).css(&#39;top&#39;,-(scrolled*0.2)+&#39;px&#39;);
+  $('.info-bg').css('top',-(scrolled*0.2)+'px');
 
 }
 </script>
@@ -388,14 +388,14 @@ $(window).load(function() {
 <script>
   // Attach Smoove to elements and set default options
   $(&quot;#content1 .widget&quot;).smoove({
-    offset  : &#39;15%&#39;,
+    offset  : '15%',
     // moveX is overridden to -200px for &quot;.bar&quot; object
-    moveX   : &#39;100px&#39;,
-    moveY   : &#39;100px&#39;,
-    rotate3d: &#39;1,1,1,90deg&#39;,
-    perspective: &#39;500&#39;,
-    offset: &#39;10&#39;,
-    transition: &#39;0.5s&#39;,
+    moveX   : '100px',
+    moveY   : '100px',
+    rotate3d: '1,1,1,90deg',
+    perspective: '500',
+    offset: '10',
+    transition: '0.5s',
   });
 </script>
 
